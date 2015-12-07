@@ -1,0 +1,963 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACODEC_FILE	common/sample_comm_audio.c	30;"	d	file:
+ALIGN_BACK	common/sample_comm.h	59;"	d
+APTINA_9M034_DC_720P_30FPS	common/sample_comm.h	/^    APTINA_9M034_DC_720P_30FPS,$/;"	e	enum:sample_vi_mode_e
+APTINA_AR0130_DC_720P_30FPS	common/sample_comm.h	/^    APTINA_AR0130_DC_720P_30FPS = 0,$/;"	e	enum:sample_vi_mode_e
+AUDIO_ADPCM_TYPE	common/sample_comm_audio.c	32;"	d	file:
+AdChn	common/sample_comm_audio.c	/^    HI_S32  AdChn;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+AdChn	common/sample_comm_audio.c	/^    HI_S32 AdChn; $/;"	m	struct:tagSAMPLE_ADEC_S	file:
+AeChn	common/sample_comm_audio.c	/^    HI_S32  AeChn;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+AencChn	common/sample_comm_audio.c	/^    HI_S32  AencChn;$/;"	m	struct:tagSAMPLE_AI_S	file:
+AiChn	common/sample_comm_audio.c	/^    HI_S32  AiChn;$/;"	m	struct:tagSAMPLE_AI_S	file:
+AiDev	common/sample_comm_audio.c	/^    HI_S32  AiDev;$/;"	m	struct:tagSAMPLE_AI_S	file:
+AnalyzePic	recorder/a.c	/^void AnalyzePic()$/;"	f
+AoChn	common/sample_comm_audio.c	/^    HI_S32  AoChn;$/;"	m	struct:tagSAMPLE_AI_S	file:
+AoDev	common/sample_comm_audio.c	/^    HI_S32  AoDev;$/;"	m	struct:tagSAMPLE_AI_S	file:
+BACKGROUND_NAME	tde/sample_tde.c	72;"	d	file:
+BACKGROUND_NAME	tde/sample_tde.c	74;"	d	file:
+BACKGROUND_NAME	tde/sample_tde.c	76;"	d	file:
+BLOBNUM	mycommon/teacher.h	13;"	d
+BLOBNUM	test_comm/teacher.h	13;"	d
+BPP	tde/sample_tde.c	80;"	d	file:
+Bool	mycommon/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	t	typeref:enum:__anon1
+Bool	test_comm/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	t	typeref:enum:__anon9
+CC	mycommon/Makefile	/^CC := arm-hisiv100nptl-linux-gcc$/;"	m
+CC	test_comm/Makefile	/^CC := arm-hisiv100nptl-linux-gcc$/;"	m
+CFG_OPT_BUTT	common/sample_comm.h	/^    CFG_OPT_BUTT$/;"	e	enum:sample_ispcfg_opt_e
+CFG_OPT_LOAD	common/sample_comm.h	/^    CFG_OPT_LOAD    = 2,$/;"	e	enum:sample_ispcfg_opt_e
+CFG_OPT_NONE	common/sample_comm.h	/^    CFG_OPT_NONE    = 0,$/;"	e	enum:sample_ispcfg_opt_e
+CFG_OPT_SAVE	common/sample_comm.h	/^    CFG_OPT_SAVE    = 1,$/;"	e	enum:sample_ispcfg_opt_e
+CHECKREGADDR	common/sample_comm_isp.c	42;"	d	file:
+CHN_ATTR_1280x720_420	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_1280x720_420 =$/;"	v
+CHN_ATTR_1280x720_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_1280x720_422 =$/;"	v
+CHN_ATTR_16x16_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_16x16_422 =$/;"	v
+CHN_ATTR_1920x1080_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_1920x1080_422 =$/;"	v
+CHN_ATTR_360x288_420	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_360x288_420 =$/;"	v
+CHN_ATTR_360x288_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_360x288_422 =$/;"	v
+CHN_ATTR_480x288_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_480x288_422 =$/;"	v
+CHN_ATTR_640x360_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_640x360_422 =$/;"	v
+CHN_ATTR_720x576_420	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_720x576_420 =$/;"	v
+CHN_ATTR_720x576_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_720x576_422 =$/;"	v
+CHN_ATTR_860x540_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_860x540_422 =$/;"	v
+CHN_ATTR_960x576_422	common/sample_comm_vi.c	/^VI_CHN_ATTR_S CHN_ATTR_960x576_422 =$/;"	v
+COMM_VENC_SnapProcess	venc/ive_test2.c	/^HI_S32 COMM_VENC_SnapProcess(VENC_GRP VencGrp, VENC_CHN VencChn)$/;"	f
+COMM_VENC_SnapProcess	venc/ive_test2_venc.c	/^HI_S32 COMM_VENC_SnapProcess(VENC_GRP VencGrp, VENC_CHN VencChn)$/;"	f
+COMM_VENC_SnapProcess	venc/test2.c	/^HI_S32 COMM_VENC_SnapProcess(VENC_GRP VencGrp, VENC_CHN VencChn)$/;"	f
+COMM_VENC_Start	test/my.c	/^HI_S32 COMM_VENC_Start(VENC_GRP VencGrp,$/;"	f
+COMM_VENC_Start	venc/ive_test2.c	/^HI_S32 COMM_VENC_Start(VENC_GRP VencGrp,$/;"	f
+COMM_VENC_Start	venc/ive_test2_venc.c	/^HI_S32 COMM_VENC_Start(VENC_GRP VencGrp,$/;"	f
+COMM_VENC_Start	venc/my.c	/^HI_S32 COMM_VENC_Start(VENC_GRP VencGrp,$/;"	f
+COMM_VENC_Start	venc/my_ive_test.c	/^HI_S32 COMM_VENC_Start(VENC_GRP VencGrp,$/;"	f
+COMM_VENC_StartGetStream	test/my.c	/^HI_S32 COMM_VENC_StartGetStream()$/;"	f
+COMM_VENC_StartGetStream	venc/ive_test2.c	/^HI_S32 COMM_VENC_StartGetStream()$/;"	f
+COMM_VENC_StartGetStream	venc/ive_test2_venc.c	/^HI_S32 COMM_VENC_StartGetStream()$/;"	f
+COMM_VENC_StartGetStream	venc/my.c	/^HI_S32 COMM_VENC_StartGetStream()$/;"	f
+COMM_VENC_StartGetStream	venc/my_ive_test.c	/^HI_S32 COMM_VENC_StartGetStream()$/;"	f
+COMM_VPSS_EnableChn	test/my.c	/^HI_S32 COMM_VPSS_EnableChn(VPSS_GRP VpssGrp,VPSS_CHN VpssChn,$/;"	f
+COMM_VPSS_EnableChn	venc/my.c	/^HI_S32 COMM_VPSS_EnableChn(VPSS_GRP VpssGrp,VPSS_CHN VpssChn,$/;"	f
+COMM_VPSS_EnableChn	venc/my_ive_test.c	/^HI_S32 COMM_VPSS_EnableChn(VPSS_GRP VpssGrp,VPSS_CHN VpssChn,$/;"	f
+COORNUM	mycommon/teacher.h	14;"	d
+COORNUM	test_comm/teacher.h	14;"	d
+CYCLE_LEN	tde/sample_tde.c	83;"	d	file:
+CamWidthjs	mycommon/MyCore.h	/^	int CamWidthjs;	$/;"	m	struct:__anon3
+CamWidthjs	test_comm/MyCore.h	/^	int CamWidthjs;	$/;"	m	struct:__anon11
+CreateSurfaceByBitMap	common/loadbmp.c	/^HI_S32 CreateSurfaceByBitMap(const HI_CHAR *pszFileName, OSD_SURFACE_S *pstSurface, HI_U8 *pu8Virt)$/;"	f
+DEV_ATTR_AR0130_DC_720P	common/sample_comm_vi.c	/^VI_DEV_ATTR_S DEV_ATTR_AR0130_DC_720P =$/;"	v
+DEV_ATTR_BT656D1_1MUX	common/sample_comm_vi.c	/^VI_DEV_ATTR_S DEV_ATTR_BT656D1_1MUX =$/;"	v
+DEV_ATTR_IMX122_DC_1080P	common/sample_comm_vi.c	/^VI_DEV_ATTR_S DEV_ATTR_IMX122_DC_1080P =$/;"	v
+DEV_ATTR_OV9712_DC_720P	common/sample_comm_vi.c	/^VI_DEV_ATTR_S DEV_ATTR_OV9712_DC_720P =$/;"	v
+ExtChn	recorder/a.c	/^const VI_CHN ExtChn = 1;$/;"	v
+FALSE	mycommon/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	e	enum:__anon1
+FALSE	test_comm/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	e	enum:__anon9
+FLAGS	mycommon/Makefile	/^OPENCV _FLAGS := -lpthread -lrt 'pkg-config --libs --cflags hisiv100-opencv'$/;"	m
+FindLastFile	recorder/final.c	/^void FindLastFile()$/;"	f
+FindLastFile	recorder/snap.c	/^void FindLastFile()$/;"	f
+FindLastFile	venc/final.c	/^void FindLastFile()$/;"	f
+FindLastFile	venc/snap.c	/^void FindLastFile()$/;"	f
+G726_BPS	common/sample_comm_audio.c	33;"	d	file:
+Gayway	mycommon/MyCore.h	/^	char Gayway[16];$/;"	m	struct:__anon3
+Gayway	test_comm/MyCore.h	/^	char Gayway[16];$/;"	m	struct:__anon11
+GetBmpInfo	common/loadbmp.c	/^HI_S32 GetBmpInfo(const char *filename,     OSD_BITMAPFILEHEADER  *pBmpFileHeader$/;"	f
+GetExtName	common/loadbmp.c	/^char * GetExtName(char * filename)$/;"	f
+HIFB_RED_1555	hifb/sample_hifb.c	168;"	d	file:
+HIFB_SD_HEIGHT	hifb/sample_hifb.c	81;"	d	file:
+HIFB_SD_WIDTH	hifb/sample_hifb.c	80;"	d	file:
+HI_FLOAT	tde/sample_tde.c	/^typedef float HI_FLOAT;$/;"	t	file:
+IMG_sobel	mycommon/teacher.c	/^void IMG_sobel$/;"	f
+IMG_sobel	test_comm/teacher.c	/^void IMG_sobel$/;"	f
+INIT_MPP_SYS	test/my.c	/^HI_S32 INIT_MPP_SYS(VB_CONF_S *pstVbConf)$/;"	f
+INIT_MPP_SYS	venc/my.c	/^HI_S32 INIT_MPP_SYS(VB_CONF_S *pstVbConf)$/;"	f
+INIT_MPP_SYS	venc/my_ive_test.c	/^HI_S32 INIT_MPP_SYS(VB_CONF_S *pstVbConf)$/;"	f
+IPMask	mycommon/MyCore.h	/^	char IPMask[16];$/;"	m	struct:__anon3
+IPMask	test_comm/MyCore.h	/^	char IPMask[16];$/;"	m	struct:__anon11
+ISP_EXT_SIZE_CFG	common/sample_comm_isp.c	40;"	d	file:
+ISP_REG_SIZE_CFG	common/sample_comm_isp.c	39;"	d	file:
+IsSensorInput	common/sample_comm_vi.c	/^HI_BOOL IsSensorInput(SAMPLE_VI_MODE_E enViMode)$/;"	f
+JPEG_VENC	venc/test2.c	11;"	d	file:
+JSAddBlobShow	mycommon/teacher.c	/^void JSAddBlobShow(int iFrame,int x1,int x2,int ps)$/;"	f
+JSAddBlobShow	test_comm/teacher.c	/^void JSAddBlobShow(int iFrame,int x1,int x2,int ps)$/;"	f
+JSAnglePoint	mycommon/teacher.c	/^TPoint JSAnglePoint[2][2];$/;"	v
+JSAnglePoint	test_comm/teacher.c	/^TPoint JSAnglePoint[2][2];$/;"	v
+JSBK	mycommon/MyCore.h	/^	int JSBK;\/\/0 ����¼����  1���汳��$/;"	m	struct:__anon3
+JSBK	test_comm/MyCore.h	/^	int JSBK;\/\/0 ����¼����  1���汳��$/;"	m	struct:__anon11
+JSBlobCounter	mycommon/teacher.c	/^int JSBlobCounter[2];$/;"	v
+JSBlobCounter	test_comm/teacher.c	/^int JSBlobCounter[2];$/;"	v
+JSCheckRealTargetBySobelLow	mycommon/teacher.c	/^int JSCheckRealTargetBySobelLow(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSCheckRealTargetBySobelLow	test_comm/teacher.c	/^int JSCheckRealTargetBySobelLow(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSCheckTarget	mycommon/teacher.c	/^void JSCheckTarget()$/;"	f
+JSCheckTarget	test_comm/teacher.c	/^void JSCheckTarget()$/;"	f
+JSCheckTargetOutWaiting	mycommon/teacher.c	/^Bool JSCheckTargetOutWaiting()$/;"	f
+JSCheckTargetOutWaiting	test_comm/teacher.c	/^Bool JSCheckTargetOutWaiting()$/;"	f
+JSClearBlobShow	mycommon/teacher.c	/^void JSClearBlobShow()$/;"	f
+JSClearBlobShow	test_comm/teacher.c	/^void JSClearBlobShow()$/;"	f
+JSClearSplitHaveTarget	mycommon/teacher.c	/^void JSClearSplitHaveTarget(int FrameNo)$/;"	f
+JSClearSplitHaveTarget	test_comm/teacher.c	/^void JSClearSplitHaveTarget(int FrameNo)$/;"	f
+JSClearSplitHaveTargetDif	mycommon/teacher.c	/^void JSClearSplitHaveTargetDif(int FrameNo)$/;"	f
+JSClearSplitHaveTargetDif	test_comm/teacher.c	/^void JSClearSplitHaveTargetDif(int FrameNo)$/;"	f
+JSFindNearBlobNo	mycommon/teacher.c	/^int JSFindNearBlobNo(TBlob ArrayBlob[],int BlobNum,TBlob oldBlob,int Col)$/;"	f
+JSFindNearBlobNo	test_comm/teacher.c	/^int JSFindNearBlobNo(TBlob ArrayBlob[],int BlobNum,TBlob oldBlob,int Col)$/;"	f
+JSFindTarget	mycommon/teacher.c	/^void JSFindTarget()$/;"	f
+JSFindTarget	test_comm/teacher.c	/^void JSFindTarget()$/;"	f
+JSFirstFindObject	mycommon/teacher.c	/^int JSFirstFindObject;$/;"	v
+JSFirstFindObject	test_comm/teacher.c	/^int JSFirstFindObject;$/;"	v
+JSFrameBK	mycommon/teacher.c	/^static UINT8 JSFrameBK[2][TWIDTH*THEIGHT];$/;"	v	file:
+JSFrameBK	test_comm/teacher.c	/^static UINT8 JSFrameBK[2][TWIDTH*THEIGHT];$/;"	v	file:
+JSFrameBKTemp	mycommon/teacher.c	/^static UINT8 JSFrameBKTemp[2*10][TWIDTH*100];\/\/$/;"	v	file:
+JSFrameBKTemp	test_comm/teacher.c	/^static UINT8 JSFrameBKTemp[2*10][TWIDTH*100];\/\/$/;"	v	file:
+JSFrameDif	mycommon/teacher.c	/^static UINT8 JSFrameDif[2][TWIDTH*THEIGHT];\/\/$/;"	v	file:
+JSFrameDif	test_comm/teacher.c	/^static UINT8 JSFrameDif[2][TWIDTH*THEIGHT];\/\/$/;"	v	file:
+JSFrameTmp	mycommon/teacher.c	/^static UINT8 JSFrameTmp[TWIDTH*THEIGHT];\/\/临时用，输出sobel结果，然后做比对$/;"	v	file:
+JSFrameTmp	test_comm/teacher.c	/^static UINT8 JSFrameTmp[TWIDTH*THEIGHT];\/\/临时用，输出sobel结果，然后做比对$/;"	v	file:
+JSGetLastCounter	mycommon/teacher.c	/^int JSGetLastCounter(int cc)$/;"	f
+JSGetLastCounter	test_comm/teacher.c	/^int JSGetLastCounter(int cc)$/;"	f
+JSGetRealXY	mycommon/teacher.c	/^void JSGetRealXY(int x1)$/;"	f
+JSGetRealXY	test_comm/teacher.c	/^void JSGetRealXY(int x1)$/;"	f
+JSGetRealXY_X	mycommon/teacher.c	/^int JSGetRealXY_X[2];\/\/临时输出$/;"	v
+JSGetRealXY_X	test_comm/teacher.c	/^int JSGetRealXY_X[2];\/\/临时输出$/;"	v
+JSGetRectCor	mycommon/teacher.c	/^void JSGetRectCor(int FrameNo)\/\/FrameNo 0~1 uOrder 0~1 $/;"	f
+JSGetRectCor	test_comm/teacher.c	/^void JSGetRectCor(int FrameNo)\/\/FrameNo 0~1 uOrder 0~1$/;"	f
+JSInitPara	mycommon/teacher.c	/^void JSInitPara()$/;"	f
+JSInitPara	test_comm/teacher.c	/^void JSInitPara()$/;"	f
+JSMinTargetWidth	mycommon/teacher.c	/^int JSMinTargetWidth;	$/;"	v
+JSMinTargetWidth	test_comm/teacher.c	/^int JSMinTargetWidth;$/;"	v
+JSMyTest	mycommon/teacher.c	/^void JSMyTest(UINT8 *pFrame)$/;"	f
+JSMyTest	test_comm/teacher.c	/^char* JSMyTest(UINT8 *pFrame)$/;"	f
+JSONEWITTH	mycommon/teacher.h	22;"	d
+JSONEWITTH	test_comm/teacher.h	22;"	d
+JSPreCtrl	mycommon/teacher.c	/^void JSPreCtrl(int framenum)$/;"	f
+JSPreCtrl	test_comm/teacher.c	/^void JSPreCtrl(int framenum)$/;"	f
+JSProX	mycommon/teacher.c	/^int JSProX[2*JSTARGETCOUNT][TWIDTH];$/;"	v
+JSProX	test_comm/teacher.c	/^int JSProX[2*JSTARGETCOUNT][TWIDTH];$/;"	v
+JSProXDif	mycommon/teacher.c	/^int JSProXDif[2*JSTARGETCOUNT][TWIDTH];$/;"	v
+JSProXDif	test_comm/teacher.c	/^int JSProXDif[2*JSTARGETCOUNT][TWIDTH];$/;"	v
+JSProXSobel	mycommon/teacher.c	/^int JSProXSobel[2][TWIDTH];$/;"	v
+JSProXSobel	test_comm/teacher.c	/^int JSProXSobel[2][TWIDTH];$/;"	v
+JSProXSobelLow	mycommon/teacher.c	/^int JSProXSobelLow[2][TWIDTH];$/;"	v
+JSProXSobelLow	test_comm/teacher.c	/^int JSProXSobelLow[2][TWIDTH];$/;"	v
+JSPutCoor	mycommon/teacher.c	/^void JSPutCoor()$/;"	f
+JSPutCoor	test_comm/teacher.c	/^void JSPutCoor()$/;"	f
+JSRecognize	mycommon/teacher.c	/^void JSRecognize()$/;"	f
+JSRecognize	test_comm/teacher.c	/^void JSRecognize()$/;"	f
+JSRunNextCounter	mycommon/teacher.c	/^void JSRunNextCounter()$/;"	f
+JSRunNextCounter	test_comm/teacher.c	/^void JSRunNextCounter()$/;"	f
+JSSetSplitHaveTarget	mycommon/teacher.c	/^void JSSetSplitHaveTarget(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSSetSplitHaveTarget	test_comm/teacher.c	/^void JSSetSplitHaveTarget(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSSetSplitHaveTargetDif	mycommon/teacher.c	/^void JSSetSplitHaveTargetDif(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSSetSplitHaveTargetDif	test_comm/teacher.c	/^void JSSetSplitHaveTargetDif(int FrameNo,int xleft,int xright,int x1,int x2)$/;"	f
+JSSetparam	test_comm/teacher.c	/^void JSSetparam(int x1,int y1,int x2,int y2)$/;"	f
+JSTARGETCOUNT	mycommon/teacher.h	20;"	d
+JSTARGETCOUNT	test_comm/teacher.h	20;"	d
+JSTargetOutWaitingCount	mycommon/teacher.c	/^int JSTargetOutWaitingCount;$/;"	v
+JSTargetOutWaitingCount	test_comm/teacher.c	/^int JSTargetOutWaitingCount;$/;"	v
+JSTtime	mycommon/teacher.c	/^int JSTtime=0;\/\/教师离开后坐标保持停留时间$/;"	v
+JSTtime	test_comm/teacher.c	/^int JSTtime=0;\/\/教师离开后坐标保持停留时间$/;"	v
+JSUpdateImage	mycommon/teacher.c	/^void JSUpdateImage()$/;"	f
+JSUpdateImage	test_comm/teacher.c	/^void JSUpdateImage()$/;"	f
+JSX_Array	mycommon/teacher.c	/^TPointResult JSX_Array[COORNUM];\/\/生成的坐标结果序列，用于控制输出滤波，当场面很乱时，输出全景（无坐标），不要跳来跳去$/;"	v
+JSX_Array	test_comm/teacher.c	/^TPointResult JSX_Array[COORNUM];\/\/生成的坐标结果序列，用于控制输出滤波，当场面很乱时，输出全景（无坐标），不要跳来跳去$/;"	v
+JSX_Width	mycommon/teacher.c	/^int JSX_Width[2];\/\/2个视频合并后的有限区域的宽带$/;"	v
+JSX_Width	test_comm/teacher.c	/^int JSX_Width[2];\/\/2个视频合并后的有限区域的宽带$/;"	v
+JSbGetBackGround	mycommon/teacher.c	/^int JSbGetBackGround[2];$/;"	v
+JSbGetBackGround	test_comm/teacher.c	/^int JSbGetBackGround[2];$/;"	v
+JSbMyTestFirst	mycommon/teacher.c	/^int JSbMyTestFirst=1;$/;"	v
+JSbMyTestFirst	test_comm/teacher.c	/^int JSbMyTestFirst=1;$/;"	v
+JSb_FindTargetAndOutCor	mycommon/teacher.c	/^Bool JSb_FindTargetAndOutCor;\/\/正在找到目标，有坐标，然后计算出来符合区域范围的$/;"	v
+JSb_FindTargetAndOutCor	test_comm/teacher.c	/^Bool JSb_FindTargetAndOutCor;\/\/正在找到目标，有坐标，然后计算出来符合区域范围的$/;"	v
+JSgFrameCounter	mycommon/teacher.c	/^static int JSgFrameCounter;$/;"	v	file:
+JSgFrameCounter	test_comm/teacher.c	/^static int JSgFrameCounter;$/;"	v	file:
+JSgFrameOneTwo	mycommon/teacher.c	/^int JSgFrameOneTwo;$/;"	v
+JSgFrameOneTwo	test_comm/teacher.c	/^int JSgFrameOneTwo;$/;"	v
+JSgTargetCounterNow	mycommon/teacher.c	/^int JSgTargetCounterNow;\/\/记录最新分析的坐标的 index$/;"	v
+JSgTargetCounterNow	test_comm/teacher.c	/^int JSgTargetCounterNow;\/\/记录最新分析的坐标的 index$/;"	v
+JSg_BGMask	mycommon/teacher.c	/^int JSg_BGMask[2][TWIDTH];\/\/针对背景中一些亮暗较大的区域，经常会引起误导的检测区域，设置掩区$/;"	v
+JSg_BGMask	test_comm/teacher.c	/^int JSg_BGMask[2][TWIDTH];\/\/针对背景中一些亮暗较大的区域，经常会引起误导的检测区域，设置掩区$/;"	v
+JSg_BGStudyCount	mycommon/teacher.c	/^int JSg_BGStudyCount[2];$/;"	v
+JSg_BGStudyCount	test_comm/teacher.c	/^int JSg_BGStudyCount[2];$/;"	v
+JSg_Blob	mycommon/teacher.c	/^TBlob JSg_Blob[BLOBNUM];$/;"	v
+JSg_Blob	test_comm/teacher.c	/^TBlob JSg_Blob[BLOBNUM];$/;"	v
+JSg_BlobCounter	mycommon/teacher.c	/^int JSg_BlobCounter=0;$/;"	v
+JSg_BlobCounter	test_comm/teacher.c	/^int JSg_BlobCounter=0;$/;"	v
+JSg_BlobShow	mycommon/teacher.c	/^TBlobShow JSg_BlobShow[2][BLOBNUM];$/;"	v
+JSg_BlobShow	test_comm/teacher.c	/^TBlobShow JSg_BlobShow[2][BLOBNUM];$/;"	v
+JSg_BlobShowCount	mycommon/teacher.c	/^int JSg_BlobShowCount[2];$/;"	v
+JSg_BlobShowCount	test_comm/teacher.c	/^int JSg_BlobShowCount[2];$/;"	v
+JSg_BlobTemp	mycommon/teacher.c	/^TBlob JSg_BlobTemp[BLOBNUM];$/;"	v
+JSg_BlobTemp	test_comm/teacher.c	/^TBlob JSg_BlobTemp[BLOBNUM];$/;"	v
+JSg_BlobTempLast	mycommon/teacher.c	/^TBlob JSg_BlobTempLast[BLOBNUM];$/;"	v
+JSg_BlobTempLast	test_comm/teacher.c	/^TBlob JSg_BlobTempLast[BLOBNUM];$/;"	v
+JSg_DifX1	mycommon/teacher.c	/^int JSg_DifX1[2],JSg_DifX2[2];$/;"	v
+JSg_DifX1	test_comm/teacher.c	/^int JSg_DifX1[2],JSg_DifX2[2];$/;"	v
+JSg_DifX2	mycommon/teacher.c	/^int JSg_DifX1[2],JSg_DifX2[2];$/;"	v
+JSg_DifX2	test_comm/teacher.c	/^int JSg_DifX1[2],JSg_DifX2[2];$/;"	v
+JSg_GetBGCount	mycommon/teacher.c	/^int JSg_GetBGCount[2][TWIDTH];$/;"	v
+JSg_GetBGCount	test_comm/teacher.c	/^int JSg_GetBGCount[2][TWIDTH];$/;"	v
+JSg_MoreTargetBGResetCount	mycommon/teacher.c	/^int JSg_MoreTargetBGResetCount;$/;"	v
+JSg_MoreTargetBGResetCount	test_comm/teacher.c	/^int JSg_MoreTargetBGResetCount;$/;"	v
+JSg_NoChangeSplit	mycommon/teacher.c	/^int JSg_NoChangeSplit[2][SPLITNUM];\/\/每一个split是100,没有变化的临时计数器$/;"	v
+JSg_NoChangeSplit	test_comm/teacher.c	/^int JSg_NoChangeSplit[2][SPLITNUM];\/\/每一个split是100,没有变化的临时计数器$/;"	v
+JSg_NoChangeSplitCounterWithTarget	mycommon/teacher.c	/^int JSg_NoChangeSplitCounterWithTarget[2][SPLITNUM];	\/\/\/\/每一个split是100,当背景差有目标时的累计计数器$/;"	v
+JSg_NoChangeSplitCounterWithTarget	test_comm/teacher.c	/^int JSg_NoChangeSplitCounterWithTarget[2][SPLITNUM];	\/\/\/\/每一个split是100,当背景差有目标时的累计计数器$/;"	v
+JSg_NoChangeSplitMax	mycommon/teacher.c	/^int JSg_NoChangeSplitMax[2][SPLITNUM];\/\/每一个split是100，累计完全没有变化的次数$/;"	v
+JSg_NoChangeSplitMax	test_comm/teacher.c	/^int JSg_NoChangeSplitMax[2][SPLITNUM];\/\/每一个split是100，累计完全没有变化的次数$/;"	v
+JSg_SplitGetBackGround	mycommon/teacher.c	/^int JSg_SplitGetBackGround[2][SPLITNUM];\/\/每一个split是100,启动的时候 是 都没学好的（为了方便分析，第一帧先直接赋值给背景），学背景要快速，一旦学好了，背景更新  就要慢一些$/;"	v
+JSg_SplitGetBackGround	test_comm/teacher.c	/^int JSg_SplitGetBackGround[2][SPLITNUM];\/\/每一个split是100,启动的时候 是 都没学好的（为了方便分析，第一帧先直接赋值给背景），学背景要快速，一旦学好了，背景更新  就要慢一些$/;"	v
+JSg_SplitHaveTarget	mycommon/teacher.c	/^int JSg_SplitHaveTarget[2][SPLITNUM];\/\/每一个split是100,该区域是否有目标，根据背景差$/;"	v
+JSg_SplitHaveTarget	test_comm/teacher.c	/^int JSg_SplitHaveTarget[2][SPLITNUM];\/\/每一个split是100,该区域是否有目标，根据背景差$/;"	v
+JSg_SplitHaveTargetDif	mycommon/teacher.c	/^int JSg_SplitHaveTargetDif[2][SPLITNUM];\/\/每一个split是100,该区域是否有目标,根据前后幁差分来$/;"	v
+JSg_SplitHaveTargetDif	test_comm/teacher.c	/^int JSg_SplitHaveTargetDif[2][SPLITNUM];\/\/每一个split是100,该区域是否有目标,根据前后幁差分来$/;"	v
+JSg_X	mycommon/teacher.c	/^int JSg_X[2]={0,0};$/;"	v
+JSg_X	test_comm/teacher.c	/^int JSg_X[2]={0,0};$/;"	v
+JSg_X2	mycommon/teacher.c	/^int JSg_X2[2]={0,0};$/;"	v
+JSg_X2	test_comm/teacher.c	/^int JSg_X2[2]={0,0};$/;"	v
+JSg_X2Last	mycommon/teacher.c	/^int JSg_X2Last[2];$/;"	v
+JSg_X2Last	test_comm/teacher.c	/^int JSg_X2Last[2];$/;"	v
+JSg_XLast	mycommon/teacher.c	/^int JSg_XLast[2];$/;"	v
+JSg_XLast	test_comm/teacher.c	/^int JSg_XLast[2];$/;"	v
+JSpFrameCur	mycommon/teacher.c	/^UINT8 *JSpFrameCur[2];\/\/$/;"	v
+JSpFrameCur	test_comm/teacher.c	/^UINT8 *JSpFrameCur[2];\/\/$/;"	v
+JSwidthjs	mycommon/teacher.c	/^int JSwidthjs;$/;"	v
+JSwidthjs	test_comm/teacher.c	/^int JSwidthjs;$/;"	v
+JSx_left	mycommon/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSx_left	test_comm/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSx_right	mycommon/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSx_right	test_comm/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSy_down	mycommon/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSy_down	test_comm/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSy_up	mycommon/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+JSy_up	test_comm/teacher.c	/^int JSy_up,JSy_down,JSx_left,JSx_right;$/;"	v
+LoadBMP	common/loadbmp.c	/^int LoadBMP(const char *filename, OSD_LOGO_T *pVideoLogo)$/;"	f
+LoadBMPEx	common/loadbmp.c	/^int LoadBMPEx(const char *filename, OSD_LOGO_T *pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f
+LoadBitMap2Surface	common/loadbmp.c	/^HI_S32 LoadBitMap2Surface(const HI_CHAR *pszFileName, const OSD_SURFACE_S *pstSurface, HI_U8 *pu8Virt)$/;"	f
+LoadImage	common/loadbmp.c	/^int LoadImage(const char *filename, OSD_LOGO_T *pVideoLogo)$/;"	f
+LoadImageEx	common/loadbmp.c	/^int LoadImageEx(const char *filename, OSD_LOGO_T *pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f
+MAX	tde/sample_tde.c	31;"	d	file:
+MAX_CORNERS	test/opencvtest.cpp	/^const int MAX_CORNERS = 500;$/;"	v
+MAX_REGLEN	common/sample_comm_isp.c	37;"	d	file:
+MAX_STRLEN	common/sample_comm_isp.c	36;"	d	file:
+MIN	tde/sample_tde.c	30;"	d	file:
+MPI_LIBS	audio/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	hifb/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	recorder/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	region/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	test/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	test2/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	vda/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	venc/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+MPI_LIBS	vio/Makefile	/^MPI_LIBS := $(REL_LIB)\/libmpi.a$/;"	m
+N_IMAGES	tde/sample_tde.c	69;"	d	file:
+OBJ	audio/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	hifb/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	recorder/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	region/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	tde/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	test/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	test2/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	test_comm/Makefile	/^OBJ = $(SRC:%.c=%.o)$/;"	m
+OBJ	vda/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	venc/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OBJ	vio/Makefile	/^OBJ  := $(SRC:%.c=%.o)$/;"	m
+OMNI_OV9712_DC_720P_30FPS	common/sample_comm.h	/^    OMNI_OV9712_DC_720P_30FPS,$/;"	e	enum:sample_vi_mode_e
+OPENCV_FLAGS	recorder/Makefile	/^OPENCV_FLAGS := -lpthread -lrt `pkg-config --libs --cflags hisiv100-opencv`$/;"	m
+OPENCV_FLAGS	test_comm/Makefile	/^OPENCV_FLAGS := -lpthread -lrt `pkg-config --libs --cflags hisiv100-opencv`$/;"	m
+OSD_BITMAPFILEHEADER	common/loadbmp.h	/^} OSD_BITMAPFILEHEADER; $/;"	t	typeref:struct:tag_OSD_BITMAPFILEHEADER
+OSD_BITMAPINFO	common/loadbmp.h	/^} OSD_BITMAPINFO;$/;"	t	typeref:struct:tag_OSD_BITMAPINFO
+OSD_BITMAPINFOHEADER	common/loadbmp.h	/^} OSD_BITMAPINFOHEADER;$/;"	t	typeref:struct:tag_OSD_BITMAPINFOHEADER
+OSD_COLOR_FMT_BUTT	common/loadbmp.h	/^    OSD_COLOR_FMT_BUTT$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_E	common/loadbmp.h	/^}OSD_COLOR_FMT_E;$/;"	t	typeref:enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB1555	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB1555   = 4,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB444	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB444    = 0,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB4444	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB4444   = 1,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB555	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB555    = 2,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB565	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB565    = 3,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB888	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB888    = 6,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB8888	common/loadbmp.h	/^    OSD_COLOR_FMT_RGB8888   = 7,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COMP_INFO	common/loadbmp.h	/^}OSD_COMP_INFO;$/;"	t	typeref:struct:hiOSD_COMPONENT_INFO_S
+OSD_LOGO_T	common/loadbmp.h	/^}OSD_LOGO_T;$/;"	t	typeref:struct:tag_OSD_Logo
+OSD_MAKECOLOR_U16	common/loadbmp.c	/^inline HI_U16 OSD_MAKECOLOR_U16(HI_U8 r, HI_U8 g, HI_U8 b, OSD_COMP_INFO compinfo)$/;"	f
+OSD_RGBQUAD	common/loadbmp.h	/^} OSD_RGBQUAD;$/;"	t	typeref:struct:tag_OSD_RGBQUAD
+OSD_RGB_S	common/loadbmp.h	/^}OSD_RGB_S;$/;"	t	typeref:struct:hiOSD_RGB_S
+OSD_SURFACE_S	common/loadbmp.h	/^}OSD_SURFACE_S;$/;"	t	typeref:struct:hiOSD_SURFACE_S
+OsdRect2	mycommon/teacher.c	/^void OsdRect2(unsigned char *pData,int hei,int wid,int x1,int x2,int y1,int y2,int ps)$/;"	f
+OsdRect2	test_comm/teacher.c	/^void OsdRect2(unsigned char *pData,int hei,int wid,int x1,int x2,int y1,int y2,int ps)$/;"	f
+PICHEIGHT	venc/ive_test2.c	18;"	d	file:
+PICHEIGHT	venc/ive_test2_venc.c	18;"	d	file:
+PICWIDTH	venc/ive_test2.c	17;"	d	file:
+PICWIDTH	venc/ive_test2_venc.c	17;"	d	file:
+PIXFMT	tde/sample_tde.c	79;"	d	file:
+PTHREAD_HIFB_SAMPLE_INFO	hifb/sample_hifb.c	/^}PTHREAD_HIFB_SAMPLE_INFO;$/;"	t	typeref:struct:hiPTHREAD_HIFB_SAMPLE	file:
+Pid	common/sample_comm.h	/^    pthread_t Pid;$/;"	m	struct:sample_video_loss_s
+REAL_REGLEN	common/sample_comm_isp.c	38;"	d	file:
+RGN_CHANGE_TYPE_BGALPHA	common/sample_comm.h	/^    RGN_CHANGE_TYPE_BGALPHA,$/;"	e	enum:sample_rgn_change_type_e
+RGN_CHANGE_TYPE_FGALPHA	common/sample_comm.h	/^    RGN_CHANGE_TYPE_FGALPHA = 0,$/;"	e	enum:sample_rgn_change_type_e
+RGN_CHANGE_TYPE_LAYER	common/sample_comm.h	/^    RGN_CHANGE_TYPE_LAYER$/;"	e	enum:sample_rgn_change_type_e
+SAMPLE_ADEC_S	common/sample_comm_audio.c	/^} SAMPLE_ADEC_S;$/;"	t	typeref:struct:tagSAMPLE_ADEC_S	file:
+SAMPLE_AENC_S	common/sample_comm_audio.c	/^} SAMPLE_AENC_S;$/;"	t	typeref:struct:tagSAMPLE_AENC_S	file:
+SAMPLE_AI_S	common/sample_comm_audio.c	/^} SAMPLE_AI_S;$/;"	t	typeref:struct:tagSAMPLE_AI_S	file:
+SAMPLE_AUDIO_AdecAo	audio/sample_audio.c	/^HI_S32 SAMPLE_AUDIO_AdecAo(AIO_ATTR_S *pstAioAttr)$/;"	f
+SAMPLE_AUDIO_AiAenc	audio/sample_audio.c	/^HI_S32 SAMPLE_AUDIO_AiAenc(AIO_ATTR_S *pstAioAttr)$/;"	f
+SAMPLE_AUDIO_AiAo	audio/sample_audio.c	/^HI_S32 SAMPLE_AUDIO_AiAo(AIO_ATTR_S *pstAioAttr)$/;"	f
+SAMPLE_AUDIO_HDMI_AO_DEV	common/sample_comm.h	81;"	d
+SAMPLE_AUDIO_HandleSig	audio/sample_audio.c	/^void SAMPLE_AUDIO_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_AUDIO_OpenAdecFile	audio/sample_audio.c	/^static FILE *SAMPLE_AUDIO_OpenAdecFile(ADEC_CHN AdChn, PAYLOAD_TYPE_E enType)$/;"	f	file:
+SAMPLE_AUDIO_OpenAencFile	audio/sample_audio.c	/^static FILE * SAMPLE_AUDIO_OpenAencFile(AENC_CHN AeChn, PAYLOAD_TYPE_E enType)$/;"	f	file:
+SAMPLE_AUDIO_PTNUMPERFRM	audio/sample_audio.c	30;"	d	file:
+SAMPLE_AUDIO_Pt2Str	audio/sample_audio.c	/^static char* SAMPLE_AUDIO_Pt2Str(PAYLOAD_TYPE_E enType)$/;"	f	file:
+SAMPLE_AUDIO_Usage	audio/sample_audio.c	/^HI_VOID SAMPLE_AUDIO_Usage(void)$/;"	f
+SAMPLE_Acodec_CfgAudio	common/sample_comm_audio.c	/^static HI_S32 SAMPLE_Acodec_CfgAudio(AUDIO_SAMPLE_RATE_E enSample, HI_BOOL bMicIn)$/;"	f	file:
+SAMPLE_CFG_OPT_E	common/sample_comm.h	/^}SAMPLE_CFG_OPT_E;$/;"	t	typeref:enum:sample_ispcfg_opt_e
+SAMPLE_COMM_AUDIO_AdecProc	common/sample_comm_audio.c	/^void *SAMPLE_COMM_AUDIO_AdecProc(void *parg)$/;"	f
+SAMPLE_COMM_AUDIO_AencBindAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AencBindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f
+SAMPLE_COMM_AUDIO_AencProc	common/sample_comm_audio.c	/^void *SAMPLE_COMM_AUDIO_AencProc(void *parg)$/;"	f
+SAMPLE_COMM_AUDIO_AencUnbindAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AencUnbindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f
+SAMPLE_COMM_AUDIO_AiProc	common/sample_comm_audio.c	/^void *SAMPLE_COMM_AUDIO_AiProc(void *parg)$/;"	f
+SAMPLE_COMM_AUDIO_AoBindAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AoBindAdec(AUDIO_DEV AoDev, AO_CHN AoChn, ADEC_CHN AdChn)$/;"	f
+SAMPLE_COMM_AUDIO_AoBindAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AoBindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN AoChn)$/;"	f
+SAMPLE_COMM_AUDIO_AoUnbindAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AoUnbindAdec(AUDIO_DEV AoDev, AO_CHN AoChn, ADEC_CHN AdChn)$/;"	f
+SAMPLE_COMM_AUDIO_AoUnbindAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_AoUnbindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN AoChn)$/;"	f
+SAMPLE_COMM_AUDIO_CfgAcodec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_CfgAcodec(AIO_ATTR_S *pstAioAttr, HI_BOOL bMacIn)$/;"	f
+SAMPLE_COMM_AUDIO_CreatTrdAencAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAencAdec(AENC_CHN AeChn, ADEC_CHN AdChn, FILE *pAecFd)$/;"	f
+SAMPLE_COMM_AUDIO_CreatTrdAiAenc	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAiAenc(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f
+SAMPLE_COMM_AUDIO_CreatTrdAiAo	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAiAo(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN AoChn)$/;"	f
+SAMPLE_COMM_AUDIO_CreatTrdFileAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_CreatTrdFileAdec(ADEC_CHN AdChn, FILE *pAdcFd)$/;"	f
+SAMPLE_COMM_AUDIO_DestoryTrdAencAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdAencAdec(AENC_CHN AeChn)$/;"	f
+SAMPLE_COMM_AUDIO_DestoryTrdAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdAi(AUDIO_DEV AiDev, AI_CHN AiChn)$/;"	f
+SAMPLE_COMM_AUDIO_DestoryTrdFileAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdFileAdec(ADEC_CHN AdChn)$/;"	f
+SAMPLE_COMM_AUDIO_StartAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StartAdec(ADEC_CHN AdChn, PAYLOAD_TYPE_E enType)$/;"	f
+SAMPLE_COMM_AUDIO_StartAenc	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StartAenc(HI_S32 s32AencChnCnt, PAYLOAD_TYPE_E enType)$/;"	f
+SAMPLE_COMM_AUDIO_StartAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StartAi(AUDIO_DEV AiDevId, HI_S32 s32AiChnCnt,$/;"	f
+SAMPLE_COMM_AUDIO_StartAo	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StartAo(AUDIO_DEV AoDevId, AO_CHN AoChn,$/;"	f
+SAMPLE_COMM_AUDIO_StopAdec	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StopAdec(ADEC_CHN AdChn)$/;"	f
+SAMPLE_COMM_AUDIO_StopAenc	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StopAenc(HI_S32 s32AencChnCnt)$/;"	f
+SAMPLE_COMM_AUDIO_StopAi	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StopAi(AUDIO_DEV AiDevId, HI_S32 s32AiChnCnt,$/;"	f
+SAMPLE_COMM_AUDIO_StopAo	common/sample_comm_audio.c	/^HI_S32 SAMPLE_COMM_AUDIO_StopAo(AUDIO_DEV AoDevId, AO_CHN AoChn, HI_BOOL bResampleEn)$/;"	f
+SAMPLE_COMM_ISP_CircleWriteReg	common/sample_comm_isp.c	/^HI_VOID SAMPLE_COMM_ISP_CircleWriteReg(HI_U32 u32RegAddr,  FILE* fd)$/;"	f
+SAMPLE_COMM_ISP_File2Reg	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_File2Reg(HI_CHAR* pCfgFile)$/;"	f
+SAMPLE_COMM_ISP_GetLine	common/sample_comm_isp.c	/^HI_S32  SAMPLE_COMM_ISP_GetLine(HI_CHAR * pcSrcBuf,HI_S32 s32SrcLen)$/;"	f
+SAMPLE_COMM_ISP_Init	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Init(void)$/;"	f
+SAMPLE_COMM_ISP_LoadRegFile	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_LoadRegFile(SAMPLE_CFG_OPT_E enCfgOpt, HI_CHAR *pcIspCfgFile)$/;"	f
+SAMPLE_COMM_ISP_Reg2File	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Reg2File(HI_CHAR* pcCfgFile)$/;"	f
+SAMPLE_COMM_ISP_Run	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Run()$/;"	f
+SAMPLE_COMM_ISP_SaveRegFile	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_SaveRegFile(SAMPLE_CFG_OPT_E enCfgOpt, HI_CHAR *pcIspCfgFile)$/;"	f
+SAMPLE_COMM_ISP_SensorInit	common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_SensorInit(void)$/;"	f
+SAMPLE_COMM_ISP_Stop	common/sample_comm_isp.c	/^HI_VOID SAMPLE_COMM_ISP_Stop()$/;"	f
+SAMPLE_COMM_SYS_CalcHistVbBlkSize	common/sample_comm_sys.c	/^HI_U32 SAMPLE_COMM_SYS_CalcHistVbBlkSize(VIDEO_NORM_E enNorm, PIC_SIZE_E enPicSize, SIZE_S *pstHistBlkSize, HI_U32 u32AlignWidth)$/;"	f
+SAMPLE_COMM_SYS_CalcPicVbBlkSize	common/sample_comm_sys.c	/^HI_U32 SAMPLE_COMM_SYS_CalcPicVbBlkSize(VIDEO_NORM_E enNorm, PIC_SIZE_E enPicSize, PIXEL_FORMAT_E enPixFmt, HI_U32 u32AlignWidth)$/;"	f
+SAMPLE_COMM_SYS_Exit	common/sample_comm_sys.c	/^HI_VOID SAMPLE_COMM_SYS_Exit(void)$/;"	f
+SAMPLE_COMM_SYS_GetPicSize	common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_GetPicSize(VIDEO_NORM_E enNorm, PIC_SIZE_E enPicSize, SIZE_S *pstSize)$/;"	f
+SAMPLE_COMM_SYS_Init	common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_Init(VB_CONF_S *pstVbConf)$/;"	f
+SAMPLE_COMM_SYS_MemConfig	common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_MemConfig(HI_VOID)$/;"	f
+SAMPLE_COMM_SYS_Payload2FilePostfix	common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_Payload2FilePostfix(PAYLOAD_TYPE_E enPayload, HI_CHAR* szFilePostfix)$/;"	f
+SAMPLE_COMM_VDA_MdGetResult	common/sample_comm_vda.c	/^HI_VOID *SAMPLE_COMM_VDA_MdGetResult(HI_VOID *pdata)$/;"	f
+SAMPLE_COMM_VDA_MdPrtAp	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_MdPrtAp(FILE *fp, VDA_DATA_S *pstVdaData)$/;"	f
+SAMPLE_COMM_VDA_MdPrtObj	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_MdPrtObj(FILE *fp, VDA_DATA_S *pstVdaData)$/;"	f
+SAMPLE_COMM_VDA_MdPrtSad	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_MdPrtSad(FILE *fp, VDA_DATA_S *pstVdaData)$/;"	f
+SAMPLE_COMM_VDA_MdStart	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_MdStart(VDA_CHN VdaChn, VI_CHN ViChn, SIZE_S *pstSize)$/;"	f
+SAMPLE_COMM_VDA_MdStop	common/sample_comm_vda.c	/^HI_VOID SAMPLE_COMM_VDA_MdStop(VDA_CHN VdaChn, VI_CHN ViChn)$/;"	f
+SAMPLE_COMM_VDA_OdGetResult	common/sample_comm_vda.c	/^HI_VOID *SAMPLE_COMM_VDA_OdGetResult(HI_VOID *pdata)$/;"	f
+SAMPLE_COMM_VDA_OdPrt	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_OdPrt(FILE *fp, VDA_DATA_S *pstVdaData)$/;"	f
+SAMPLE_COMM_VDA_OdStart	common/sample_comm_vda.c	/^HI_S32 SAMPLE_COMM_VDA_OdStart(VDA_CHN VdaChn, VI_CHN ViChn, SIZE_S *pstSize)$/;"	f
+SAMPLE_COMM_VDA_OdStop	common/sample_comm_vda.c	/^HI_VOID SAMPLE_COMM_VDA_OdStop(VDA_CHN VdaChn, VI_CHN ViChn)$/;"	f
+SAMPLE_COMM_VENC_BindVpss	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_BindVpss(VENC_GRP GrpChn,VPSS_GRP VpssGrp,VPSS_CHN VpssChn)$/;"	f
+SAMPLE_COMM_VENC_GetFilePostfix	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_GetFilePostfix(PAYLOAD_TYPE_E enPayload, char *szFilePostfix)$/;"	f
+SAMPLE_COMM_VENC_GetVencStreamProc	common/sample_comm_venc.c	/^HI_VOID* SAMPLE_COMM_VENC_GetVencStreamProc(HI_VOID *p)$/;"	f
+SAMPLE_COMM_VENC_MemConfig	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_MemConfig(HI_VOID)$/;"	f
+SAMPLE_COMM_VENC_SaveH264	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SaveH264(FILE* fpH264File, VENC_STREAM_S *pstStream)$/;"	f
+SAMPLE_COMM_VENC_SaveJPEG	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SaveJPEG(FILE *fpJpegFile, VENC_STREAM_S *pstStream)$/;"	f
+SAMPLE_COMM_VENC_SaveMJpeg	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SaveMJpeg(FILE* fpJpegFile, VENC_STREAM_S *pstStream)$/;"	f
+SAMPLE_COMM_VENC_SaveSnap	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SaveSnap(VENC_STREAM_S *pstStream)$/;"	f
+SAMPLE_COMM_VENC_SaveStream	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SaveStream(PAYLOAD_TYPE_E enType,FILE *pFd, VENC_STREAM_S *pstStream)$/;"	f
+SAMPLE_COMM_VENC_SnapProcess	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SnapProcess(VENC_GRP VencGrp, VENC_CHN VencChn)$/;"	f
+SAMPLE_COMM_VENC_SnapStart	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SnapStart(VENC_GRP VencGrp,VENC_CHN VencChn, SIZE_S *pstSize)$/;"	f
+SAMPLE_COMM_VENC_SnapStop	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_SnapStop(VENC_GRP VencGrp,VENC_CHN VencChn)$/;"	f
+SAMPLE_COMM_VENC_Start	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_Start(VENC_GRP VencGrp,VENC_CHN VencChn, PAYLOAD_TYPE_E enType, VIDEO_NORM_E enNorm, PIC_SIZE_E enSize, SAMPLE_RC_E enRcMode)$/;"	f
+SAMPLE_COMM_VENC_StartGetStream	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_StartGetStream(HI_S32 s32Cnt)$/;"	f
+SAMPLE_COMM_VENC_Stop	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_Stop(VENC_GRP VencGrp,VENC_CHN VencChn)$/;"	f
+SAMPLE_COMM_VENC_StopGetStream	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_StopGetStream()$/;"	f
+SAMPLE_COMM_VENC_UnBindVpss	common/sample_comm_venc.c	/^HI_S32 SAMPLE_COMM_VENC_UnBindVpss(VENC_GRP GrpChn,VPSS_GRP VpssGrp,VPSS_CHN VpssChn)$/;"	f
+SAMPLE_COMM_VI_ADStart	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_ADStart(SAMPLE_VI_MODE_E enViMode, VIDEO_NORM_E enNorm)$/;"	f
+SAMPLE_COMM_VI_BindVenc	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_BindVenc(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_BindVpss	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_BindVpss(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_ChangeCapSize	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_ChangeCapSize(VI_CHN ViChn, HI_U32 u32CapWidth, HI_U32 u32CapHeight,HI_U32 u32Width, HI_U32 u32Height)$/;"	f
+SAMPLE_COMM_VI_GetDev	common/sample_comm_vi.c	/^VI_DEV SAMPLE_COMM_VI_GetDev(SAMPLE_VI_MODE_E enViMode, VI_CHN ViChn)$/;"	f
+SAMPLE_COMM_VI_GetVFrameFromYUV	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_GetVFrameFromYUV(FILE *pYUVFile, HI_U32 u32Width, HI_U32 u32Height,HI_U32 u32Stride, VIDEO_FRAME_INFO_S *pstVFrameInfo)$/;"	f
+SAMPLE_COMM_VI_MemConfig	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_MemConfig(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_Mode2Param	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_Mode2Param(SAMPLE_VI_MODE_E enViMode, SAMPLE_VI_PARAM_S *pstViParam)$/;"	f
+SAMPLE_COMM_VI_Mode2Size	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_Mode2Size(SAMPLE_VI_MODE_E enViMode, VIDEO_NORM_E enNorm, SIZE_S *pstSize)$/;"	f
+SAMPLE_COMM_VI_PlanToSemi	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_PlanToSemi(HI_U8 *pY, HI_S32 yStride,$/;"	f
+SAMPLE_COMM_VI_ReadFrame	common/sample_comm_vi.c	/^HI_VOID SAMPLE_COMM_VI_ReadFrame(FILE * fp, HI_U8 * pY, HI_U8 * pU, HI_U8 * pV, HI_U32 width, HI_U32 height, HI_U32 stride, HI_U32 stride2)$/;"	f
+SAMPLE_COMM_VI_StartBT656	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StartBT656(SAMPLE_VI_MODE_E enViMode, VIDEO_NORM_E enNorm)$/;"	f
+SAMPLE_COMM_VI_StartChn	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StartChn(VI_CHN ViChn, RECT_S *pstCapRect, SIZE_S *pstTarSize, SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_COMM_VI_StartDev	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StartDev(VI_DEV ViDev, SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_StartIsp	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StartIsp(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_COMM_VI_StartVi	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StartVi(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_COMM_VI_StopBT656	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StopBT656(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_StopIsp	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StopIsp(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_COMM_VI_StopVi	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_StopVi(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_COMM_VI_UnBindVenc	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_UnBindVenc(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VI_UnBindVpss	common/sample_comm_vi.c	/^HI_S32 SAMPLE_COMM_VI_UnBindVpss(SAMPLE_VI_MODE_E enViMode)$/;"	f
+SAMPLE_COMM_VO_BindVi	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_BindVi(VO_DEV VoDev, VO_CHN VoChn, VI_CHN ViChn)$/;"	f
+SAMPLE_COMM_VO_BindVpss	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_BindVpss(VO_DEV VoDev,VO_CHN VoChn,VPSS_GRP VpssGrp,VPSS_CHN VpssChn)$/;"	f
+SAMPLE_COMM_VO_GetWH	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_GetWH(VO_INTF_SYNC_E enIntfSync, HI_U32 *pu32W,HI_U32 *pu32H, HI_U32 *pu32Frm)$/;"	f
+SAMPLE_COMM_VO_MemConfig	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_MemConfig(VO_DEV VoDev, HI_CHAR *pcMmzName)$/;"	f
+SAMPLE_COMM_VO_StartChn	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartChn(VO_DEV VoDev,VO_PUB_ATTR_S *pstPubAttr,SAMPLE_VO_MODE_E enMode)$/;"	f
+SAMPLE_COMM_VO_StartDevLayer	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartDevLayer(VO_DEV VoDev, VO_PUB_ATTR_S *pstPubAttr, HI_U32 u32SrcFrmRate)$/;"	f
+SAMPLE_COMM_VO_StopChn	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopChn(VO_DEV VoDev,SAMPLE_VO_MODE_E enMode)$/;"	f
+SAMPLE_COMM_VO_StopDevLayer	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopDevLayer(VO_DEV VoDev)$/;"	f
+SAMPLE_COMM_VO_UnBindVi	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_UnBindVi(VO_DEV VoDev, VO_CHN VoChn)$/;"	f
+SAMPLE_COMM_VO_UnBindVpss	common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_UnBindVpss(VO_DEV VoDev,VO_CHN VoChn,VPSS_GRP VpssGrp,VPSS_CHN VpssChn)$/;"	f
+SAMPLE_COMM_VPSS_DisableChn	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_DisableChn(VPSS_GRP VpssGrp, VPSS_CHN VpssChn)$/;"	f
+SAMPLE_COMM_VPSS_EnableChn	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_EnableChn(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, $/;"	f
+SAMPLE_COMM_VPSS_MemConfig	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_MemConfig()$/;"	f
+SAMPLE_COMM_VPSS_Start	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_Start(HI_S32 s32GrpCnt, SIZE_S *pstSize, HI_S32 s32ChnCnt,VPSS_GRP_ATTR_S *pstVpssGrpAttr)$/;"	f
+SAMPLE_COMM_VPSS_StartGroup	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_StartGroup(VPSS_GRP VpssGrp, VPSS_GRP_ATTR_S *pstVpssGrpAttr)$/;"	f
+SAMPLE_COMM_VPSS_Stop	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_Stop(HI_S32 s32GrpCnt, HI_S32 s32ChnCnt)$/;"	f
+SAMPLE_COMM_VPSS_StopGroup	common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_StopGroup(VPSS_GRP VpssGrp)$/;"	f
+SAMPLE_DBG	audio/sample_audio.c	42;"	d	file:
+SAMPLE_DISABLE	common/sample_comm.h	77;"	d
+SAMPLE_ENABLE	common/sample_comm.h	76;"	d
+SAMPLE_HIFB_LoadBmp	hifb/sample_hifb.c	/^HI_S32 SAMPLE_HIFB_LoadBmp(const char *filename, HI_U8 *pAddr)$/;"	f
+SAMPLE_HIFB_PANDISPLAY	hifb/sample_hifb.c	/^HI_VOID *SAMPLE_HIFB_PANDISPLAY(void *pData)$/;"	f
+SAMPLE_HIFB_REFRESH	hifb/sample_hifb.c	/^HI_VOID *SAMPLE_HIFB_REFRESH(void *pData)$/;"	f
+SAMPLE_HIFB_VO_Start	hifb/sample_hifb.c	/^HI_S32 SAMPLE_HIFB_VO_Start(void)$/;"	f
+SAMPLE_HIFB_VO_Stop	hifb/sample_hifb.c	/^HI_S32 SAMPLE_HIFB_VO_Stop(void)$/;"	f
+SAMPLE_IMAGE_HEIGHT	hifb/sample_hifb.c	162;"	d	file:
+SAMPLE_IMAGE_NUM	hifb/sample_hifb.c	164;"	d	file:
+SAMPLE_IMAGE_PATH	hifb/sample_hifb.c	166;"	d	file:
+SAMPLE_IMAGE_SIZE	hifb/sample_hifb.c	163;"	d	file:
+SAMPLE_IMAGE_WIDTH	hifb/sample_hifb.c	161;"	d	file:
+SAMPLE_IVE_BindViVo	venc/ive_test2.c	/^HI_S32 SAMPLE_IVE_BindViVo(VI_CHN ViChn, VO_DEV VoDev, VO_CHN VoChn)$/;"	f
+SAMPLE_IVE_BindViVo	venc/ive_test2_venc.c	/^HI_S32 SAMPLE_IVE_BindViVo(VI_CHN ViChn, VO_DEV VoDev, VO_CHN VoChn)$/;"	f
+SAMPLE_IVE_Canny	venc/ive_test2.c	/^HI_S32  SAMPLE_IVE_Canny()$/;"	f
+SAMPLE_IVE_Canny	venc/ive_test2_venc.c	/^HI_S32  SAMPLE_IVE_Canny()$/;"	f
+SAMPLE_IVE_Canny_HandleSig	venc/ive_test2.c	/^HI_VOID SAMPLE_IVE_Canny_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_IVE_Canny_HandleSig	venc/ive_test2_venc.c	/^HI_VOID SAMPLE_IVE_Canny_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_IVE_Canny_Usage	venc/ive_test2.c	/^HI_VOID SAMPLE_IVE_Canny_Usage(char *sPrgNm)$/;"	f
+SAMPLE_IVE_Canny_Usage	venc/ive_test2_venc.c	/^HI_VOID SAMPLE_IVE_Canny_Usage(char *sPrgNm)$/;"	f
+SAMPLE_IVE_UnBindViVo	venc/ive_test2.c	/^HI_S32 SAMPLE_IVE_UnBindViVo(VO_DEV VoDev, VO_CHN VoChn)$/;"	f
+SAMPLE_IVE_UnBindViVo	venc/ive_test2_venc.c	/^HI_S32 SAMPLE_IVE_UnBindViVo(VO_DEV VoDev, VO_CHN VoChn)$/;"	f
+SAMPLE_NOUSE	common/sample_comm.h	78;"	d
+SAMPLE_PIXEL_FORMAT	common/sample_comm.h	61;"	d
+SAMPLE_PRT	common/sample_comm.h	84;"	d
+SAMPLE_RC_CBR	common/sample_comm.h	/^    SAMPLE_RC_CBR = 0,$/;"	e	enum:sample_rc_e
+SAMPLE_RC_E	common/sample_comm.h	/^}SAMPLE_RC_E;$/;"	t	typeref:enum:sample_rc_e
+SAMPLE_RC_FIXQP	common/sample_comm.h	/^    SAMPLE_RC_FIXQP$/;"	e	enum:sample_rc_e
+SAMPLE_RC_VBR	common/sample_comm.h	/^    SAMPLE_RC_VBR,$/;"	e	enum:sample_rc_e
+SAMPLE_RGN_720P	region/sample_region.c	/^HI_VOID *SAMPLE_RGN_720P(HI_VOID*arg)$/;"	f
+SAMPLE_RGN_CHANGE_TYPE_EN	common/sample_comm.h	/^}SAMPLE_RGN_CHANGE_TYPE_EN;$/;"	t	typeref:enum:sample_rgn_change_type_e
+SAMPLE_RGN_Change	region/sample_region.c	/^HI_S32 SAMPLE_RGN_Change(RGN_HANDLE RgnHandle, VENC_GRP VencGrp, SAMPLE_RGN_CHANGE_TYPE_EN enChangeType, HI_U32 u32Val)$/;"	f
+SAMPLE_RGN_ChgColor	region/sample_region.c	/^HI_S32 SAMPLE_RGN_ChgColor(RGN_HANDLE RgnHandle, HI_U32 u32Color)$/;"	f
+SAMPLE_RGN_ChgPosition	region/sample_region.c	/^HI_S32 SAMPLE_RGN_ChgPosition(RGN_HANDLE RgnHandle, VENC_GRP VencGrp, POINT_S *pstPoint)$/;"	f
+SAMPLE_RGN_CoverProcess	region/sample_region.c	/^HI_S32 SAMPLE_RGN_CoverProcess(VI_DEV ViDev,VI_CHN ViChn)$/;"	f
+SAMPLE_RGN_HandleSig	region/sample_region.c	/^void SAMPLE_RGN_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_RGN_LOOP_COUNT	region/sample_region.c	50;"	d	file:
+SAMPLE_RGN_LoadBmp	region/sample_region.c	/^HI_S32 SAMPLE_RGN_LoadBmp(const HI_CHAR *filename, BITMAP_S *pstBitmap)$/;"	f
+SAMPLE_RGN_MemConfig	region/sample_region.c	/^HI_S32 SAMPLE_RGN_MemConfig(HI_VOID)$/;"	f
+SAMPLE_RGN_OverlayProcess	region/sample_region.c	/^HI_S32 SAMPLE_RGN_OverlayProcess(VENC_GRP VencGrpStart,HI_S32 grpcnt)$/;"	f
+SAMPLE_RGN_SLEEP_TIME	region/sample_region.c	49;"	d	file:
+SAMPLE_RGN_ShowOrHide	region/sample_region.c	/^HI_S32 SAMPLE_RGN_ShowOrHide(RGN_HANDLE RgnHandle, VENC_GRP VencGrp, HI_BOOL bShow)$/;"	f
+SAMPLE_RGN_Usage	region/sample_region.c	/^void SAMPLE_RGN_Usage(HI_CHAR *sPrgNm)$/;"	f
+SAMPLE_RGN_VENC	region/sample_region.c	/^HI_VOID *SAMPLE_RGN_VENC(HI_VOID *arg)$/;"	f
+SAMPLE_SYS_ALIGN_WIDTH	common/sample_comm.h	60;"	d
+SAMPLE_TW2865_CfgV	common/sample_comm_vi.c	/^HI_S32 SAMPLE_TW2865_CfgV(VIDEO_NORM_E enVideoMode,VI_WORK_MODE_E enWorkMode)$/;"	f
+SAMPLE_VDA_HandleSig	vda/sample_vda.c	/^void SAMPLE_VDA_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_VDA_MD_CHN	common/sample_comm_vda.c	43;"	d	file:
+SAMPLE_VDA_OD_CHN	common/sample_comm_vda.c	44;"	d	file:
+SAMPLE_VDA_Usage	vda/sample_vda.c	/^void SAMPLE_VDA_Usage(char *sPrgNm)$/;"	f
+SAMPLE_VENC_720P_CLASSIC	venc/sample_venc.c	/^HI_S32 SAMPLE_VENC_720P_CLASSIC(HI_VOID)$/;"	f
+SAMPLE_VENC_720P_MJPEG	venc/sample_venc.c	/^HI_S32 SAMPLE_VENC_720P_MJPEG(HI_VOID)$/;"	f
+SAMPLE_VENC_720P_Snap	venc/sample_venc.c	/^HI_S32 SAMPLE_VENC_720P_Snap(HI_VOID)$/;"	f
+SAMPLE_VENC_GETSTREAM_PARA_S	common/sample_comm.h	/^}SAMPLE_VENC_GETSTREAM_PARA_S;$/;"	t	typeref:struct:sample_venc_getstream_s
+SAMPLE_VENC_HandleSig	venc/sample_venc.c	/^void SAMPLE_VENC_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_VENC_StreamHandleSig	venc/sample_venc.c	/^void SAMPLE_VENC_StreamHandleSig(HI_S32 signo)$/;"	f
+SAMPLE_VENC_Usage	venc/sample_venc.c	/^void SAMPLE_VENC_Usage(char *sPrgNm)$/;"	f
+SAMPLE_VIDEO_LOSS_S	common/sample_comm.h	/^} SAMPLE_VIDEO_LOSS_S;$/;"	t	typeref:struct:sample_video_loss_s
+SAMPLE_VIO_720P_Extchn_Preview	vio/sample_vio.c	/^HI_S32 SAMPLE_VIO_720P_Extchn_Preview(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_VIO_720P_LDC_Preview	vio/sample_vio.c	/^HI_S32 SAMPLE_VIO_720P_LDC_Preview(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_VIO_720P_PreView	vio/sample_vio.c	/^HI_S32 SAMPLE_VIO_720P_PreView(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_VIO_D1_PreView	vio/sample_vio.c	/^HI_S32 SAMPLE_VIO_D1_PreView(SAMPLE_VI_CONFIG_S* pstViConfig)$/;"	f
+SAMPLE_VIO_HandleSig	hifb/sample_hifb.c	/^void SAMPLE_VIO_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_VIO_HandleSig	vio/sample_vio.c	/^void SAMPLE_VIO_HandleSig(HI_S32 signo)$/;"	f
+SAMPLE_VIO_Usage	vio/sample_vio.c	/^void SAMPLE_VIO_Usage(char *sPrgNm)$/;"	f
+SAMPLE_VI_CHN_SET_E	common/sample_comm.h	/^}SAMPLE_VI_CHN_SET_E;$/;"	t	typeref:enum:sample_vi_chn_set_e
+SAMPLE_VI_CONFIG_S	common/sample_comm.h	/^}SAMPLE_VI_CONFIG_S;$/;"	t	typeref:struct:sample_vi_config_s
+SAMPLE_VI_DEV_TYPE_E	common/sample_comm.h	/^}SAMPLE_VI_DEV_TYPE_E;$/;"	t	typeref:enum:__anon17
+SAMPLE_VI_MODE_1_D1	common/sample_comm.h	/^    SAMPLE_VI_MODE_1_D1,$/;"	e	enum:sample_vi_mode_e
+SAMPLE_VI_MODE_E	common/sample_comm.h	/^}SAMPLE_VI_MODE_E;$/;"	t	typeref:enum:sample_vi_mode_e
+SAMPLE_VI_PARAM_S	common/sample_comm.h	/^}SAMPLE_VI_PARAM_S;$/;"	t	typeref:struct:sample_vi_param_s
+SAMPLE_VO_DEV_DSD0	common/sample_comm.h	70;"	d
+SAMPLE_VO_DEV_DSD1	common/sample_comm.h	69;"	d
+SAMPLE_VO_MODE_E	common/sample_comm.h	/^}SAMPLE_VO_MODE_E;$/;"	t	typeref:enum:sample_vo_mode_e
+SAMPLE_Vda_QVGA	vda/sample_vda.c	/^HI_S32 SAMPLE_Vda_QVGA(HI_BOOL bVdaMd)$/;"	f
+SCREEN_HEIGHT	tde/sample_tde.c	82;"	d	file:
+SCREEN_WIDTH	tde/sample_tde.c	81;"	d	file:
+SONY_ICX692_DC_720P_30FPS	common/sample_comm.h	/^    SONY_ICX692_DC_720P_30FPS,$/;"	e	enum:sample_vi_mode_e
+SONY_IMX104_DC_720P_30FPS	common/sample_comm.h	/^    SONY_IMX104_DC_720P_30FPS,$/;"	e	enum:sample_vi_mode_e
+SONY_IMX122_DC_1080P_30FPS	common/sample_comm.h	/^    SONY_IMX122_DC_1080P_30FPS,$/;"	e	enum:sample_vi_mode_e
+SPLITNUM	mycommon/teacher.h	17;"	d
+SPLITNUM	test_comm/teacher.h	17;"	d
+SPLITWIDTH	mycommon/teacher.h	18;"	d
+SPLITWIDTH	test_comm/teacher.h	18;"	d
+SRC	audio/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	hifb/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	recorder/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	region/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	tde/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	test/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	test2/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	test_comm/Makefile	/^SRC = $(wildcard *.c)$/;"	m
+SRC	vda/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	venc/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+SRC	vio/Makefile	/^SRC  := $(wildcard *.c) $/;"	m
+START_POINT_X_OFFSET	region/sample_region.c	279;"	d	file:
+START_POINT_Y_OFFSET	region/sample_region.c	280;"	d	file:
+SendVencChn	recorder/a.c	/^const VPSS_CHN SendVencChn = 0;$/;"	v
+SendVencGrp	recorder/a.c	/^const VPSS_GRP SendVencGrp = 0;$/;"	v
+SendVideoStream	recorder/a.c	/^void SendVideoStream(int SendSockfd)$/;"	f
+SendVideoStream	recorder/final.c	/^void SendVideoStream(int SendSockfd)$/;"	f
+SendVideoStream	recorder/snap.c	/^void SendVideoStream(int SendSockfd)$/;"	f
+SendVideoStream	venc/final.c	/^void SendVideoStream(int SendSockfd)$/;"	f
+SendVideoStream	venc/snap.c	/^void SendVideoStream(int SendSockfd)$/;"	f
+SmoothGauss	mycommon/teacher.c	/^void SmoothGauss(unsigned char *pImageData, int nWidth, int nHeight, int nWidthStep)$/;"	f
+SmoothGauss	test_comm/teacher.c	/^void SmoothGauss(unsigned char *pImageData, int nWidth, int nHeight, int nWidthStep)$/;"	f
+SnapCnt	common/sample_comm_venc.c	/^HI_S32 SnapCnt = 0;$/;"	v
+SnapPic	recorder/final.c	/^HI_VOID SnapPic()$/;"	f
+SnapPic	recorder/snap.c	/^HI_VOID SnapPic()$/;"	f
+SnapPic	venc/final.c	/^HI_VOID SnapPic()$/;"	f
+SnapPic	venc/snap.c	/^HI_VOID SnapPic()$/;"	f
+StartVi	test/my.c	/^HI_S32 StartVi(VI_DEV ViDev,$/;"	f
+StartVi	venc/my.c	/^HI_S32 StartVi(VI_DEV ViDev,$/;"	f
+StartVi	venc/my_ive_test.c	/^HI_S32 StartVi(VI_DEV ViDev,$/;"	f
+TARGET	audio/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	hifb/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	recorder/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	region/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	tde/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	test/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	test2/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	vda/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	venc/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TARGET	vio/Makefile	/^TARGET := $(OBJ:%.o=%)$/;"	m
+TArcSimple	mycommon/MyCore.h	/^}TArcSimple;$/;"	t	typeref:struct:__anon7
+TArcSimple	test_comm/MyCore.h	/^}TArcSimple;$/;"	t	typeref:struct:__anon15
+TBlob	mycommon/MyCore.h	/^}TBlob;$/;"	t	typeref:struct:__anon4
+TBlob	test_comm/MyCore.h	/^}TBlob;$/;"	t	typeref:struct:__anon12
+TBlobShow	mycommon/MyCore.h	/^}TBlobShow;$/;"	t	typeref:struct:__anon5
+TBlobShow	test_comm/MyCore.h	/^}TBlobShow;$/;"	t	typeref:struct:__anon13
+TBlobSimple	mycommon/MyCore.h	/^}TBlobSimple;$/;"	t	typeref:struct:__anon6
+TBlobSimple	test_comm/MyCore.h	/^}TBlobSimple;$/;"	t	typeref:struct:__anon14
+TDE_CreateSurfaceByFile	tde/sample_tde.c	/^static HI_S32 TDE_CreateSurfaceByFile(const HI_CHAR *pszFileName, TDE2_SURFACE_S *pstSurface, HI_U8 *pu8Virt)$/;"	f	file:
+TDE_DrawGraphicSample	tde/sample_tde.c	/^HI_S32 TDE_DrawGraphicSample()$/;"	f
+TDE_PRINT	tde/sample_tde.c	24;"	d	file:
+THEIGHT	mycommon/teacher.h	11;"	d
+THEIGHT	test_comm/teacher.h	11;"	d
+TLV320_FILE	common/sample_comm.h	65;"	d
+TPoint	mycommon/MyCore.h	/^}TPoint;$/;"	t	typeref:struct:__anon2
+TPoint	test_comm/MyCore.h	/^}TPoint;$/;"	t	typeref:struct:__anon10
+TPointResult	mycommon/MyCore.h	/^}TPointResult;$/;"	t	typeref:struct:__anon8
+TPointResult	test_comm/MyCore.h	/^}TPointResult;$/;"	t	typeref:struct:__anon16
+TRUE	mycommon/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	e	enum:__anon1
+TRUE	test_comm/MyCore.h	/^typedef enum { FALSE, TRUE }  Bool;$/;"	e	enum:__anon9
+TSetting	mycommon/MyCore.h	/^} TSetting; $/;"	t	typeref:struct:__anon3
+TSetting	test_comm/MyCore.h	/^} TSetting; $/;"	t	typeref:struct:__anon11
+TW2865_FILE	common/sample_comm.h	63;"	d
+TW2960_FILE	common/sample_comm.h	64;"	d
+TWIDTH	mycommon/teacher.h	10;"	d
+TWIDTH	test_comm/teacher.h	10;"	d
+TWIDTHUV	mycommon/teacher.h	12;"	d
+TWIDTHUV	test_comm/teacher.h	12;"	d
+Ttimejs	mycommon/MyCore.h	/^	int Ttimejs;\/\/ͣ��ʱ��$/;"	m	struct:__anon3
+Ttimejs	test_comm/MyCore.h	/^	int Ttimejs;\/\/ͣ��ʱ��$/;"	m	struct:__anon11
+UINT8	mycommon/teacher.h	9;"	d
+UINT8	test_comm/mytrace.h	/^typedef unsigned char UINT8;$/;"	t
+UINT8	test_comm/teacher.h	9;"	d
+UpDownMode	mycommon/MyCore.h	/^	int UpDownMode;\/\/0 ֻȡ��λ  1�ߵ��л�$/;"	m	struct:__anon3
+UpDownMode	test_comm/MyCore.h	/^	int UpDownMode;\/\/0 ֻȡ��λ  1�ߵ��л�$/;"	m	struct:__anon11
+UpdateBackGround	mycommon/teacher.c	/^void UpdateBackGround(UINT8* pCur,UINT8* pBK,int xl,int xr,int yu,int yd,int fudu)$/;"	f
+UpdateBackGround	test_comm/teacher.c	/^void UpdateBackGround(UINT8* pCur,UINT8* pBK,int xl,int xr,int yu,int yd,int fudu)$/;"	f
+VDA_MD_PARAM_S	common/sample_comm_vda.c	/^}VDA_MD_PARAM_S;$/;"	t	typeref:struct:hiVDA_MD_PARAM_S	file:
+VDA_OD_PARAM_S	common/sample_comm_vda.c	/^}VDA_OD_PARAM_S;$/;"	t	typeref:struct:hiVDA_OD_PARAM_S	file:
+VENCPARA	venc/ive_test2.c	/^typedef struct  VENCPARA{$/;"	s	file:
+VENCPARA	venc/ive_test2_venc.c	/^typedef struct  VENCPARA{$/;"	s	file:
+VENCPARA	venc/test2.c	/^typedef struct  VENCPARA{$/;"	s	file:
+VENC_OPEN	venc/ive_test2.c	16;"	d	file:
+VENC_OPEN	venc/ive_test2_venc.c	16;"	d	file:
+VI_CHN_SET_FLIP	common/sample_comm.h	/^    VI_CHN_SET_FLIP,            \/* open filp *\/$/;"	e	enum:sample_vi_chn_set_e
+VI_CHN_SET_FLIP_MIRROR	common/sample_comm.h	/^    VI_CHN_SET_FLIP_MIRROR      \/* mirror, flip *\/$/;"	e	enum:sample_vi_chn_set_e
+VI_CHN_SET_MIRROR	common/sample_comm.h	/^    VI_CHN_SET_MIRROR,          \/* open MIRROR *\/$/;"	e	enum:sample_vi_chn_set_e
+VI_CHN_SET_NORMAL	common/sample_comm.h	/^    VI_CHN_SET_NORMAL = 0,      \/* mirror, flip close *\/$/;"	e	enum:sample_vi_chn_set_e
+VI_DEV_1080P_HD_1MUX	common/sample_comm.h	/^    VI_DEV_1080P_HD_1MUX,$/;"	e	enum:__anon17
+VI_DEV_720P_HD_1MUX	common/sample_comm.h	/^    VI_DEV_720P_HD_1MUX,$/;"	e	enum:__anon17
+VI_DEV_BT656_960H_1MUX	common/sample_comm.h	/^    VI_DEV_BT656_960H_1MUX,$/;"	e	enum:__anon17
+VI_DEV_BT656_960H_4MUX	common/sample_comm.h	/^    VI_DEV_BT656_960H_4MUX,$/;"	e	enum:__anon17
+VI_DEV_BT656_D1_1MUX	common/sample_comm.h	/^    VI_DEV_BT656_D1_1MUX = 0,$/;"	e	enum:__anon17
+VI_DEV_BT656_D1_4MUX	common/sample_comm.h	/^    VI_DEV_BT656_D1_4MUX,$/;"	e	enum:__anon17
+VI_DEV_BUTT	common/sample_comm.h	/^    VI_DEV_BUTT$/;"	e	enum:__anon17
+VI_PAUSE	vio/sample_vio.c	44;"	d	file:
+VO_MODE_1MUX	common/sample_comm.h	/^    VO_MODE_1MUX = 0,$/;"	e	enum:sample_vo_mode_e
+VO_MODE_BUTT	common/sample_comm.h	/^    VO_MODE_BUTT$/;"	e	enum:sample_vo_mode_e
+VPSS_StartGroup_VI_BindVpss	test/my.c	/^HI_S32 VPSS_StartGroup_VI_BindVpss(VPSS_GRP VpssGrp,VPSS_GRP_ATTR_S *pstVpssGrpAttr)$/;"	f
+VPSS_StartGroup_VI_BindVpss	venc/my.c	/^HI_S32 VPSS_StartGroup_VI_BindVpss(VPSS_GRP VpssGrp,VPSS_GRP_ATTR_S *pstVpssGrpAttr)$/;"	f
+VPSS_StartGroup_VI_BindVpss	venc/my_ive_test.c	/^HI_S32 VPSS_StartGroup_VI_BindVpss(VPSS_GRP VpssGrp,VPSS_GRP_ATTR_S *pstVpssGrpAttr)$/;"	f
+VdaChn	common/sample_comm_vda.c	/^    VDA_CHN VdaChn;$/;"	m	struct:hiVDA_MD_PARAM_S	file:
+VdaChn	common/sample_comm_vda.c	/^    VDA_CHN VdaChn;$/;"	m	struct:hiVDA_OD_PARAM_S	file:
+VencChn	venc/ive_test2.c	/^    VENC_CHN VencChn;$/;"	m	struct:VENCPARA	file:
+VencChn	venc/ive_test2_venc.c	/^    VENC_CHN VencChn;$/;"	m	struct:VENCPARA	file:
+VencChn	venc/test2.c	/^    VENC_CHN VencChn;$/;"	m	struct:VENCPARA	file:
+VencGrp	venc/ive_test2.c	/^    VENC_GRP VencGrp;$/;"	m	struct:VENCPARA	file:
+VencGrp	venc/ive_test2_venc.c	/^    VENC_GRP VencGrp;$/;"	m	struct:VENCPARA	file:
+VencGrp	venc/test2.c	/^    VENC_GRP VencGrp;$/;"	m	struct:VENCPARA	file:
+ViChn	hifb/sample_hifb.c	/^static VI_CHN ViChn = 0;$/;"	v	file:
+ViChn	recorder/a.c	/^const VI_CHN ViChn = 0;$/;"	v
+ViDev	recorder/a.c	/^const VI_DEV ViDev = 0;$/;"	v
+VoChn	tde/sample_tde.c	27;"	d	file:
+VoDev	hifb/sample_hifb.c	/^static VO_DEV VoDev = SAMPLE_VO_DEV_DSD1;$/;"	v	file:
+VoDev	tde/sample_tde.c	26;"	d	file:
+VpssChn	recorder/a.c	/^const VPSS_CHN VpssChn = 0;$/;"	v
+VpssGrp	recorder/a.c	/^const VPSS_GRP VpssGrp = 0;$/;"	v
+XueShengStatus	mycommon/MyCore.h	/^	int XueShengStatus;\/\/1 �� 0 ��$/;"	m	struct:__anon3
+XueShengStatus	test_comm/MyCore.h	/^	int XueShengStatus;\/\/1 �� 0 ��$/;"	m	struct:__anon11
+Ybegin	mycommon/MyCore.h	/^	int Ybegin;$/;"	m	struct:__anon3
+Ybegin	test_comm/MyCore.h	/^	int Ybegin;$/;"	m	struct:__anon11
+Yend	mycommon/MyCore.h	/^	int Yend;$/;"	m	struct:__anon3
+Yend	test_comm/MyCore.h	/^	int Yend;$/;"	m	struct:__anon11
+__LOAD_BMP_H__	common/loadbmp.h	2;"	d
+__MYTRACE_H	test_comm/mytrace.h	2;"	d
+__SAMPLE_COMM_H__	common/sample_comm.h	10;"	d
+__TEACHER2_H	test_comm/teacher2.h	2;"	d
+accept_thread	recorder/final.c	/^void accept_thread(int sockfd)$/;"	f
+accept_thread	recorder/snap.c	/^void accept_thread(int sockfd)$/;"	f
+accept_thread	venc/final.c	/^void accept_thread(int sockfd)$/;"	f
+accept_thread	venc/snap.c	/^void accept_thread(int sockfd)$/;"	f
+accept_thread	venc/test2.c	/^    void accept_thread(int socketfd)$/;"	f
+alen	common/loadbmp.h	/^    int alen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S
+angel	mycommon/MyCore.h	/^	int angel[2];$/;"	m	struct:__anon3
+angel	test_comm/MyCore.h	/^	int angel[2];$/;"	m	struct:__anon11
+arc	mycommon/MyCore.h	/^	int arc[4];$/;"	m	struct:__anon7
+arc	test_comm/MyCore.h	/^	int arc[4];$/;"	m	struct:__anon15
+bSendAdChn	common/sample_comm_audio.c	/^    HI_BOOL bSendAdChn;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+bSendAenc	common/sample_comm_audio.c	/^    HI_BOOL bSendAenc;$/;"	m	struct:tagSAMPLE_AI_S	file:
+bSendAo	common/sample_comm_audio.c	/^    HI_BOOL bSendAo;$/;"	m	struct:tagSAMPLE_AI_S	file:
+bStart	common/sample_comm.h	/^    HI_BOOL bStart;$/;"	m	struct:sample_video_loss_s
+bStart	common/sample_comm_audio.c	/^    HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_ADEC_S	file:
+bStart	common/sample_comm_audio.c	/^    HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+bStart	common/sample_comm_audio.c	/^    HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_AI_S	file:
+bThreadStart	common/sample_comm.h	/^     HI_BOOL bThreadStart;$/;"	m	struct:sample_venc_getstream_s
+bThreadStart	common/sample_comm_vda.c	/^    HI_BOOL bThreadStart;$/;"	m	struct:hiVDA_MD_PARAM_S	file:
+bThreadStart	common/sample_comm_vda.c	/^    HI_BOOL bThreadStart;$/;"	m	struct:hiVDA_OD_PARAM_S	file:
+bfOffBits	common/loadbmp.h	/^        HI_U32   bfOffBits;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER
+bfReserved1	common/loadbmp.h	/^        HI_U16    bfReserved1;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER
+bfReserved2	common/loadbmp.h	/^        HI_U16    bfReserved2;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER
+bfSize	common/loadbmp.h	/^        HI_U32   bfSize;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER
+biBitCount	common/loadbmp.h	/^        HI_U16       biBitCount;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biClrImportant	common/loadbmp.h	/^        HI_U32      biClrImportant;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biClrUsed	common/loadbmp.h	/^        HI_U32      biClrUsed;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biCompression	common/loadbmp.h	/^        HI_U32      biCompression;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biHeight	common/loadbmp.h	/^        HI_S32       biHeight;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biPlanes	common/loadbmp.h	/^        HI_U16       biPlanes;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biSize	common/loadbmp.h	/^        HI_U16      biSize;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biSizeImage	common/loadbmp.h	/^        HI_U32      biSizeImage;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biWidth	common/loadbmp.h	/^        HI_U32       biWidth;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biXPelsPerMeter	common/loadbmp.h	/^        HI_U32       biXPelsPerMeter;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+biYPelsPerMeter	common/loadbmp.h	/^        HI_U32       biYPelsPerMeter;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER
+blen	common/loadbmp.h	/^    int blen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S
+bmiColors	common/loadbmp.h	/^    OSD_RGBQUAD                 bmiColors[1];$/;"	m	struct:tag_OSD_BITMAPINFO
+bmiHeader	common/loadbmp.h	/^    OSD_BITMAPINFOHEADER    bmiHeader;$/;"	m	struct:tag_OSD_BITMAPINFO
+circumrotate	tde/sample_tde.c	/^static HI_VOID circumrotate (HI_U32 u32CurOnShow)$/;"	f	file:
+ctrlkey	hifb/sample_hifb.c	/^    int ctrlkey;$/;"	m	struct:hiPTHREAD_HIFB_SAMPLE	file:
+enColorFmt	common/loadbmp.h	/^    OSD_COLOR_FMT_E enColorFmt;         \/* color format *\/$/;"	m	struct:hiOSD_SURFACE_S
+enNorm	common/sample_comm.h	/^    VIDEO_NORM_E enNorm;           \/*DC: VIDEO_ENCODING_MODE_AUTO *\/    $/;"	m	struct:sample_vi_config_s
+enRotate	common/sample_comm.h	/^    ROTATE_E enRotate;$/;"	m	struct:sample_vi_config_s
+enSize	recorder/a.c	/^PIC_SIZE_E enSize = PIC_HD1080;$/;"	v
+enSize	recorder/final.c	/^PIC_SIZE_E enSize = PIC_HD1080;$/;"	v
+enSize	recorder/snap.c	/^PIC_SIZE_E enSize = PIC_HD1080;$/;"	v
+enSize	venc/final.c	/^PIC_SIZE_E enSize=PIC_HD1080;$/;"	v
+enSize	venc/snap.c	/^PIC_SIZE_E enSize = PIC_HD1080;$/;"	v
+enSize	venc/test.c	/^PIC_SIZE_E enSize=PIC_HD1080;$/;"	v
+enSize	venc/test2.c	/^PIC_SIZE_E enSize=PIC_HD1080;$/;"	v
+enViChnSet	common/sample_comm.h	/^    SAMPLE_VI_CHN_SET_E enViChnSet;    $/;"	m	struct:sample_vi_config_s
+enViMode	common/sample_comm.h	/^    SAMPLE_VI_MODE_E enViMode;$/;"	m	struct:sample_vi_config_s
+enViMode	common/sample_comm.h	/^    SAMPLE_VI_MODE_E enViMode;$/;"	m	struct:sample_video_loss_s
+fd	hifb/sample_hifb.c	/^    int fd;$/;"	m	struct:hiPTHREAD_HIFB_SAMPLE	file:
+frame	test_comm/teacher2.c	/^int frame(int height, int width, int type, char* data)$/;"	f
+g_EOI	common/sample_comm_venc.c	/^const HI_U8 g_EOI[2] = {0xFF, 0xD9};$/;"	v
+g_SOI	common/sample_comm_venc.c	/^const HI_U8 g_SOI[2] = {0xFF, 0xD8};$/;"	v
+g_a16	hifb/sample_hifb.c	/^static struct fb_bitfield g_a16 = {15, 1, 0};$/;"	v	typeref:struct:fb_bitfield	file:
+g_as32MaxChn	common/sample_comm_vi.c	/^VI_CHN g_as32MaxChn[VIU_MAX_CHN_NUM];$/;"	v
+g_as32SubChn	common/sample_comm_vi.c	/^VI_CHN g_as32SubChn[VIU_MAX_CHN_NUM];$/;"	v
+g_as32ViDev	common/sample_comm_vi.c	/^VI_DEV g_as32ViDev[VIU_MAX_DEV_NUM];$/;"	v
+g_b16	hifb/sample_hifb.c	/^static struct fb_bitfield g_b16 = {0, 5, 0};$/;"	v	typeref:struct:fb_bitfield	file:
+g_bStopSignal	venc/ive_test2.c	/^HI_BOOL g_bStopSignal = HI_FALSE;$/;"	v
+g_bStopSignal	venc/ive_test2_venc.c	/^HI_BOOL g_bStopSignal = HI_FALSE;$/;"	v
+g_bStopSignal	venc/test2.c	/^HI_BOOL g_bStopSignal = HI_FALSE;$/;"	v
+g_bToRun	region/sample_region.c	/^HI_BOOL g_bToRun = HI_FALSE;$/;"	v
+g_enPicSize	vio/sample_vio.c	/^PIC_SIZE_E g_enPicSize = PIC_HD720;$/;"	v
+g_enVoIntfType	region/sample_region.c	/^VO_INTF_TYPE_E  g_enVoIntfType = VO_INTF_CVBS;$/;"	v
+g_enVoIntfType	vda/sample_vda.c	/^VO_INTF_TYPE_E  g_enVoIntfType = VO_INTF_CVBS;$/;"	v
+g_enVoIntfType	venc/ive_test2.c	/^VO_INTF_TYPE_E  g_enVoIntfType = VO_INTF_CVBS;$/;"	v
+g_enVoIntfType	venc/ive_test2_venc.c	/^VO_INTF_TYPE_E  g_enVoIntfType = VO_INTF_CVBS;$/;"	v
+g_enVoIntfType	vio/sample_vio.c	/^VO_INTF_TYPE_E g_enVoIntfType = VO_INTF_CVBS;$/;"	v
+g_g16	hifb/sample_hifb.c	/^static struct fb_bitfield g_g16 = {5, 5, 0};$/;"	v	typeref:struct:fb_bitfield	file:
+g_r16	hifb/sample_hifb.c	/^static struct fb_bitfield g_r16 = {10, 5, 0};$/;"	v	typeref:struct:fb_bitfield	file:
+g_s32FrameNum	tde/sample_tde.c	/^static HI_S32   g_s32FrameNum;$/;"	v	file:
+g_stBackGround	tde/sample_tde.c	/^static TDE2_SURFACE_S g_stBackGround;$/;"	v	file:
+g_stImgSur	tde/sample_tde.c	/^static TDE2_SURFACE_S g_stImgSur[N_IMAGES];$/;"	v	file:
+g_stScreen	tde/sample_tde.c	/^static TDE2_SURFACE_S g_stScreen[2];$/;"	v	file:
+g_stViChnConfig	region/sample_region.c	/^SAMPLE_VI_CONFIG_S g_stViChnConfig =$/;"	v
+g_stViChnConfig	vda/sample_vda.c	/^SAMPLE_VI_CONFIG_S g_stViChnConfig = $/;"	v
+g_stViChnConfig	venc/ive_test2.c	/^SAMPLE_VI_CONFIG_S g_stViChnConfig =$/;"	v
+g_stViChnConfig	venc/ive_test2_venc.c	/^SAMPLE_VI_CONFIG_S g_stViChnConfig =$/;"	v
+g_stViChnConfig	vio/sample_vio.c	/^SAMPLE_VI_CONFIG_S g_stViChnConfig =$/;"	v
+glen	common/loadbmp.h	/^    int glen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S
+gs_IspPid	common/sample_comm_isp.c	/^static pthread_t gs_IspPid;$/;"	v	file:
+gs_VdaPid	common/sample_comm_vda.c	/^static pthread_t gs_VdaPid[2];$/;"	v	file:
+gs_VencPid	common/sample_comm_venc.c	/^static pthread_t gs_VencPid;$/;"	v	file:
+gs_bAiAnr	audio/sample_audio.c	/^static HI_BOOL gs_bAiAnr = HI_FALSE;$/;"	v	file:
+gs_bAioReSample	audio/sample_audio.c	/^static HI_BOOL gs_bAioReSample = HI_FALSE;$/;"	v	file:
+gs_bMicIn	audio/sample_audio.c	/^static HI_BOOL gs_bMicIn = HI_FALSE;$/;"	v	file:
+gs_bUserGetMode	audio/sample_audio.c	/^static HI_BOOL gs_bUserGetMode = HI_FALSE;$/;"	v	file:
+gs_enNorm	recorder/a.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	recorder/final.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	recorder/snap.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	region/sample_region.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_PAL;$/;"	v
+gs_enNorm	vda/sample_vda.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_PAL;$/;"	v
+gs_enNorm	venc/final.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	venc/ive_test2.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_PAL;$/;"	v
+gs_enNorm	venc/ive_test2_venc.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_PAL;$/;"	v
+gs_enNorm	venc/sample_venc.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	venc/snap.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	venc/test.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	venc/test2.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_NTSC;$/;"	v
+gs_enNorm	vio/sample_vio.c	/^VIDEO_NORM_E gs_enNorm = VIDEO_ENCODING_MODE_PAL;$/;"	v
+gs_enPayloadType	audio/sample_audio.c	/^static PAYLOAD_TYPE_E gs_enPayloadType = PT_ADPCMA;$/;"	v	file:
+gs_enViScanMode	region/sample_region.c	/^VI_SCAN_MODE_E    gs_enViScanMode = VI_SCAN_INTERLACED;$/;"	v
+gs_pstAiReSmpAttr	audio/sample_audio.c	/^static AUDIO_RESAMPLE_ATTR_S *gs_pstAiReSmpAttr = NULL;$/;"	v	file:
+gs_pstAoReSmpAttr	audio/sample_audio.c	/^static AUDIO_RESAMPLE_ATTR_S *gs_pstAoReSmpAttr = NULL;$/;"	v	file:
+gs_s32ChnCnt	region/sample_region.c	/^static HI_U32 gs_s32ChnCnt = 1;        \/* vi, venc chn count *\/$/;"	v	file:
+gs_s32RgnCnt	region/sample_region.c	/^static HI_S32 gs_s32RgnCnt = 5;$/;"	v	file:
+gs_s32RgnCntCur	region/sample_region.c	/^static HI_S32 gs_s32RgnCntCur = 0;$/;"	v	file:
+gs_s32SnapCnt	common/sample_comm_venc.c	/^static HI_S32 gs_s32SnapCnt = 0;$/;"	v	file:
+gs_stMdParam	common/sample_comm_vda.c	/^static VDA_MD_PARAM_S gs_stMdParam;$/;"	v	file:
+gs_stOdParam	common/sample_comm_vda.c	/^static VDA_OD_PARAM_S gs_stOdParam;$/;"	v	file:
+gs_stPara	common/sample_comm_venc.c	/^static SAMPLE_VENC_GETSTREAM_PARA_S gs_stPara;$/;"	v	file:
+gs_stSampleAdec	common/sample_comm_audio.c	/^static SAMPLE_ADEC_S gs_stSampleAdec[ADEC_MAX_CHN_NUM];$/;"	v	file:
+gs_stSampleAenc	common/sample_comm_audio.c	/^static SAMPLE_AENC_S gs_stSampleAenc[AENC_MAX_CHN_NUM];$/;"	v	file:
+gs_stSampleAi	common/sample_comm_audio.c	/^static SAMPLE_AI_S gs_stSampleAi[AI_DEV_MAX_NUM*AIO_MAX_CHN_NUM];$/;"	v	file:
+gs_stVideoLoss	vio/sample_vio.c	/^SAMPLE_VIDEO_LOSS_S gs_stVideoLoss;$/;"	v
+gs_u32ViFrmRate	region/sample_region.c	/^HI_U32    gs_u32ViFrmRate = 0;$/;"	v
+gs_u32ViFrmRate	vda/sample_vda.c	/^HI_U32    gs_u32ViFrmRate = 0;$/;"	v
+gs_u32ViFrmRate	venc/ive_test2.c	/^HI_U32 gs_u32ViFrmRate = 0;$/;"	v
+gs_u32ViFrmRate	venc/ive_test2_venc.c	/^HI_U32 gs_u32ViFrmRate = 0;$/;"	v
+gs_u32ViFrmRate	vio/sample_vio.c	/^HI_U32 gs_u32ViFrmRate = 0;$/;"	v
+height	common/loadbmp.h	/^    HI_U32    height;       \/* out *\/$/;"	m	struct:tag_OSD_Logo
+hiOSD_COLOR_FMT_E	common/loadbmp.h	/^typedef enum hiOSD_COLOR_FMT_E$/;"	g
+hiOSD_COMPONENT_INFO_S	common/loadbmp.h	/^typedef struct hiOSD_COMPONENT_INFO_S{$/;"	s
+hiOSD_RGB_S	common/loadbmp.h	/^typedef struct hiOSD_RGB_S$/;"	s
+hiOSD_SURFACE_S	common/loadbmp.h	/^typedef struct hiOSD_SURFACE_S$/;"	s
+hiPTHREAD_HIFB_SAMPLE	hifb/sample_hifb.c	/^typedef struct hiPTHREAD_HIFB_SAMPLE$/;"	s	file:
+hiVDA_MD_PARAM_S	common/sample_comm_vda.c	/^typedef struct hiVDA_MD_PARAM_S$/;"	s	file:
+hiVDA_OD_PARAM_S	common/sample_comm_vda.c	/^typedef struct hiVDA_OD_PARAM_S$/;"	s	file:
+id	mycommon/MyCore.h	/^	int id;$/;"	m	struct:__anon4
+id	mycommon/MyCore.h	/^	int id;$/;"	m	struct:__anon6
+id	test_comm/MyCore.h	/^	int id;$/;"	m	struct:__anon12
+id	test_comm/MyCore.h	/^	int id;$/;"	m	struct:__anon14
+ip	mycommon/MyCore.h	/^	char ip[16];$/;"	m	struct:__anon3
+ip	test_comm/MyCore.h	/^	char ip[16];$/;"	m	struct:__anon11
+isChangePic	recorder/a.c	/^HI_BOOL isChangePic = HI_FALSE;$/;"	v
+isChangePic	recorder/final.c	/^HI_BOOL isChangePic = HI_FALSE;$/;"	v
+isChangePic	recorder/snap.c	/^HI_BOOL isChangePic = HI_FALSE;$/;"	v
+isChangePic	venc/final.c	/^HI_BOOL isChangePic = HI_FALSE;$/;"	v
+isChangePic	venc/snap.c	/^HI_BOOL isChangePic = HI_FALSE;$/;"	v
+isSend	recorder/a.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSend	recorder/final.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSend	recorder/snap.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSend	venc/final.c	/^HI_BOOL isSnap = HI_FALSE,isSend = HI_FALSE;$/;"	v
+isSend	venc/snap.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSnap	recorder/a.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSnap	recorder/final.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSnap	recorder/snap.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isSnap	venc/final.c	/^HI_BOOL isSnap = HI_FALSE,isSend = HI_FALSE;$/;"	v
+isSnap	venc/snap.c	/^HI_BOOL isSnap = HI_FALSE, isSend = HI_FALSE;$/;"	v
+isThreadStop	recorder/a.c	/^HI_BOOL isThreadStop = HI_FALSE;$/;"	v
+isThreadStop	recorder/final.c	/^HI_BOOL isThreadStop = HI_FALSE;$/;"	v
+isThreadStop	recorder/snap.c	/^HI_BOOL isThreadStop = HI_FALSE;$/;"	v
+isThreadStop	venc/final.c	/^HI_BOOL isThreadStop = HI_FALSE;$/;"	v
+isThreadStop	venc/snap.c	/^HI_BOOL isThreadStop = HI_FALSE;$/;"	v
+layer	hifb/sample_hifb.c	/^    int layer;$/;"	m	struct:hiPTHREAD_HIFB_SAMPLE	file:
+main	audio/sample_audio.c	/^HI_S32 main(int argc, char *argv[])$/;"	f
+main	hifb/sample_hifb.c	/^int main(int argc, char *argv[])$/;"	f
+main	recorder/a.c	/^int main(int argc, char const *argv[])$/;"	f
+main	recorder/final.c	/^int main(int argc, char const *argv[])$/;"	f
+main	recorder/snap.c	/^int main(int argc, char const *argv[])$/;"	f
+main	region/sample_region.c	/^int main(int argc, char *argv[])$/;"	f
+main	tde/sample_tde.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/my.c	/^int main()$/;"	f
+main	test/opencvtest.cpp	/^int main(int argc,char** argv)$/;"	f
+main	test2/main.c	/^int main()$/;"	f
+main	vda/sample_vda.c	/^int main(int argc, char *argv[])$/;"	f
+main	venc/final.c	/^int main(int argc, char const *argv[])$/;"	f
+main	venc/ive_test2.c	/^int  main(int argc, char* argv[])$/;"	f
+main	venc/ive_test2_venc.c	/^int main(int argc, char* argv[])$/;"	f
+main	venc/my.c	/^int main()$/;"	f
+main	venc/my_ive_test.c	/^int main()$/;"	f
+main	venc/sample_venc.c	/^int main(int argc, char *argv[])$/;"	f
+main	venc/snap.c	/^int main(int argc, char const *argv[])$/;"	f
+main	venc/test.c	/^int main()$/;"	f
+main	venc/test2.c	/^int main()$/;"	f
+main	vio/sample_vio.c	/^int main(int argc, char *argv[])$/;"	f
+num	mycommon/MyCore.h	/^	int num;$/;"	m	struct:__anon7
+num	test_comm/MyCore.h	/^	int num;$/;"	m	struct:__anon15
+p1	mycommon/MyCore.h	/^	TPoint p1[2];	$/;"	m	struct:__anon3
+p1	test_comm/MyCore.h	/^	TPoint p1[2];	$/;"	m	struct:__anon11
+p2	mycommon/MyCore.h	/^	TPoint p2[2];$/;"	m	struct:__anon3
+p2	test_comm/MyCore.h	/^	TPoint p2[2];$/;"	m	struct:__anon11
+p3	mycommon/MyCore.h	/^	TPoint p3[2];$/;"	m	struct:__anon3
+p3	test_comm/MyCore.h	/^	TPoint p3[2];$/;"	m	struct:__anon11
+p4	mycommon/MyCore.h	/^	TPoint p4[2];	$/;"	m	struct:__anon3
+p4	test_comm/MyCore.h	/^	TPoint p4[2];	$/;"	m	struct:__anon11
+p5	mycommon/MyCore.h	/^	TPoint p5[2];$/;"	m	struct:__anon3
+p5	test_comm/MyCore.h	/^	TPoint p5[2];$/;"	m	struct:__anon11
+p6	mycommon/MyCore.h	/^	TPoint p6[2];$/;"	m	struct:__anon3
+p6	test_comm/MyCore.h	/^	TPoint p6[2];$/;"	m	struct:__anon11
+p7	mycommon/MyCore.h	/^	TPoint p7[2];$/;"	m	struct:__anon3
+p7	test_comm/MyCore.h	/^	TPoint p7[2];$/;"	m	struct:__anon11
+p8	mycommon/MyCore.h	/^	TPoint p8[2];$/;"	m	struct:__anon3
+p8	test_comm/MyCore.h	/^	TPoint p8[2];$/;"	m	struct:__anon11
+pRGBBuffer	common/loadbmp.h	/^    HI_U8 *   pRGBBuffer;   \/* in\/out *\/$/;"	m	struct:tag_OSD_Logo
+pfd	common/sample_comm_audio.c	/^    FILE    *pfd;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+pfd	common/sample_comm_audio.c	/^    FILE *pfd;$/;"	m	struct:tagSAMPLE_ADEC_S	file:
+pipefd	venc/test2.c	/^int pipefd[2];$/;"	v
+pjs1	mycommon/MyCore.h	/^	TPoint pjs1[2];	$/;"	m	struct:__anon3
+pjs1	test_comm/MyCore.h	/^	TPoint pjs1[2];	$/;"	m	struct:__anon11
+pjs2	mycommon/MyCore.h	/^	TPoint pjs2[2];$/;"	m	struct:__anon3
+pjs2	test_comm/MyCore.h	/^	TPoint pjs2[2];$/;"	m	struct:__anon11
+pointnum	mycommon/MyCore.h	/^	int pointnum;\/\/��Ч������Ŀ$/;"	m	struct:__anon8
+pointnum	test_comm/MyCore.h	/^	int pointnum;\/\/��Ч������Ŀ$/;"	m	struct:__anon16
+process	test_comm/mytrace.c	/^void process(UINT8 *imgae)$/;"	f
+protect	recorder/final.c	/^const char *protect = "\/mnt\/sd\/protect\/";$/;"	v
+protect	recorder/snap.c	/^const char *protect = "\/mnt\/sd\/protect\/";$/;"	v
+protect	venc/snap.c	/^const char *protect = "\/mnt\/sd\/protect\/";$/;"	v
+protocol	recorder/final.c	/^int protocol(char buff[], int n)$/;"	f
+protocol	recorder/snap.c	/^int protocol(char buff[], int n)$/;"	f
+protocol	venc/final.c	/^int protocol(char buff[],int n)$/;"	f
+protocol	venc/snap.c	/^int protocol(char buff[], int n)$/;"	f
+ps	mycommon/MyCore.h	/^	int ps;$/;"	m	struct:__anon5
+ps	test_comm/MyCore.h	/^	int ps;$/;"	m	struct:__anon13
+pszImageNames	tde/sample_tde.c	/^static const HI_CHAR *pszImageNames[] =$/;"	v	file:
+pu8PhyAddr	common/loadbmp.h	/^    HI_U8  *pu8PhyAddr;               \/* physical address *\/$/;"	m	struct:hiOSD_SURFACE_S
+quit	hifb/sample_hifb.c	/^    int quit;$/;"	m	struct:hiPTHREAD_HIFB_SAMPLE	file:
+record	recorder/final.c	/^void record()$/;"	f
+record	recorder/snap.c	/^void record()$/;"	f
+record	venc/snap.c	/^void record()$/;"	f
+rgbBlue	common/loadbmp.h	/^        HI_U8    rgbBlue;$/;"	m	struct:tag_OSD_RGBQUAD
+rgbGreen	common/loadbmp.h	/^        HI_U8    rgbGreen;$/;"	m	struct:tag_OSD_RGBQUAD
+rgbRed	common/loadbmp.h	/^        HI_U8    rgbRed;$/;"	m	struct:tag_OSD_RGBQUAD
+rgbReserved	common/loadbmp.h	/^        HI_U8    rgbReserved;$/;"	m	struct:tag_OSD_RGBQUAD
+rlen	common/loadbmp.h	/^    int rlen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S
+s32Cnt	common/sample_comm.h	/^     HI_S32  s32Cnt;$/;"	m	struct:sample_venc_getstream_s
+s32ViChnCnt	common/sample_comm.h	/^    HI_S32 s32ViChnCnt;         \/\/ Vi Chn Total Count$/;"	m	struct:sample_vi_param_s
+s32ViChnInterval	common/sample_comm.h	/^    HI_S32 s32ViChnInterval;    \/\/ VI Chn Interval$/;"	m	struct:sample_vi_param_s
+s32ViDevCnt	common/sample_comm.h	/^    HI_S32 s32ViDevCnt;         \/\/ VI Dev Total Count$/;"	m	struct:sample_vi_param_s
+s32ViDevInterval	common/sample_comm.h	/^    HI_S32 s32ViDevInterval;    \/\/ Vi Dev Interval$/;"	m	struct:sample_vi_param_s
+s_OSDCompInfo	common/loadbmp.c	/^OSD_COMP_INFO s_OSDCompInfo[OSD_COLOR_FMT_BUTT] = {{0, 4, 4, 4},   \/*RGB444*\/$/;"	v
+sample_ispcfg_opt_e	common/sample_comm.h	/^typedef enum sample_ispcfg_opt_e$/;"	g
+sample_rc_e	common/sample_comm.h	/^typedef enum sample_rc_e$/;"	g
+sample_rgn_change_type_e	common/sample_comm.h	/^typedef enum sample_rgn_change_type_e$/;"	g
+sample_venc_getstream_s	common/sample_comm.h	/^typedef struct sample_venc_getstream_s$/;"	s
+sample_vi_chn_set_e	common/sample_comm.h	/^typedef enum sample_vi_chn_set_e$/;"	g
+sample_vi_config_s	common/sample_comm.h	/^typedef struct sample_vi_config_s$/;"	s
+sample_vi_mode_e	common/sample_comm.h	/^typedef enum sample_vi_mode_e$/;"	g
+sample_vi_param_s	common/sample_comm.h	/^typedef struct sample_vi_param_s$/;"	s
+sample_video_loss_s	common/sample_comm.h	/^typedef struct sample_video_loss_s$/;"	s
+sample_vo_mode_e	common/sample_comm.h	/^typedef enum sample_vo_mode_e$/;"	g
+save_jpg	venc/ive_test2.c	/^HI_VOID save_jpg(venc_para *para)$/;"	f
+save_jpg	venc/ive_test2_venc.c	/^HI_VOID save_jpg(venc_para *para)$/;"	f
+save_jpg	venc/test2.c	/^HI_VOID save_jpg(venc_para *para)$/;"	f
+set	mycommon/teacher.c	/^TSetting set;$/;"	v
+set	test_comm/teacher.c	/^TSetting set;$/;"	v
+signal_changePic	venc/test2.c	/^    void signal_changePic()$/;"	f
+snapdir	recorder/final.c	/^const char *snapdir = "\/mnt\/sd\/snap\/";$/;"	v
+snapdir	recorder/snap.c	/^const char *snapdir = "\/mnt\/sd\/snap\/";$/;"	v
+snapdir	venc/snap.c	/^const char *snapdir = "\/mnt\/sd\/snap\/";$/;"	v
+stAdPid	common/sample_comm_audio.c	/^    pthread_t stAdPid;$/;"	m	struct:tagSAMPLE_ADEC_S	file:
+stAencPid	common/sample_comm_audio.c	/^    pthread_t stAencPid;$/;"	m	struct:tagSAMPLE_AENC_S	file:
+stAiPid	common/sample_comm_audio.c	/^    pthread_t stAiPid;$/;"	m	struct:tagSAMPLE_AI_S	file:
+stride	common/loadbmp.h	/^    HI_U32    stride;       \/* in *\/$/;"	m	struct:tag_OSD_Logo
+t1	mycommon/MyCore.h	/^	int t1,t2;$/;"	m	struct:__anon3
+t1	test_comm/MyCore.h	/^	int t1,t2;$/;"	m	struct:__anon11
+t2	mycommon/MyCore.h	/^	int t1,t2;$/;"	m	struct:__anon3
+t2	test_comm/MyCore.h	/^	int t1,t2;$/;"	m	struct:__anon11
+tagSAMPLE_ADEC_S	common/sample_comm_audio.c	/^typedef struct tagSAMPLE_ADEC_S$/;"	s	file:
+tagSAMPLE_AENC_S	common/sample_comm_audio.c	/^typedef struct tagSAMPLE_AENC_S$/;"	s	file:
+tagSAMPLE_AI_S	common/sample_comm_audio.c	/^typedef struct tagSAMPLE_AI_S$/;"	s	file:
+tag_OSD_BITMAPFILEHEADER	common/loadbmp.h	/^typedef struct tag_OSD_BITMAPFILEHEADER {$/;"	s
+tag_OSD_BITMAPINFO	common/loadbmp.h	/^typedef struct tag_OSD_BITMAPINFO {$/;"	s
+tag_OSD_BITMAPINFOHEADER	common/loadbmp.h	/^typedef struct tag_OSD_BITMAPINFOHEADER{$/;"	s
+tag_OSD_Logo	common/loadbmp.h	/^typedef struct tag_OSD_Logo$/;"	s
+tag_OSD_RGBQUAD	common/loadbmp.h	/^typedef struct tag_OSD_RGBQUAD {$/;"	s
+thread_ChangePic	venc/test.c	/^void thread_ChangePic(int fd)$/;"	f
+thread_ChangePic	venc/test2.c	/^void thread_ChangePic(int fd)$/;"	f
+u16Height	common/loadbmp.h	/^    HI_U16  u16Height;                \/* operation height *\/$/;"	m	struct:hiOSD_SURFACE_S
+u16Reserved	common/loadbmp.h	/^    HI_U16  u16Reserved;$/;"	m	struct:hiOSD_SURFACE_S
+u16Stride	common/loadbmp.h	/^    HI_U16  u16Stride;                \/* surface stride *\/$/;"	m	struct:hiOSD_SURFACE_S
+u16Width	common/loadbmp.h	/^    HI_U16  u16Width;                 \/* operation width *\/$/;"	m	struct:hiOSD_SURFACE_S
+u32IspExtBase	common/sample_comm_isp.c	/^static HI_U32 u32IspExtBase = 0;$/;"	v	file:
+u8B	common/loadbmp.h	/^    HI_U8   u8B;$/;"	m	struct:hiOSD_RGB_S
+u8G	common/loadbmp.h	/^    HI_U8   u8G;$/;"	m	struct:hiOSD_RGB_S
+u8R	common/loadbmp.h	/^    HI_U8   u8R;$/;"	m	struct:hiOSD_RGB_S
+u8Reserved	common/loadbmp.h	/^    HI_U8   u8Reserved;$/;"	m	struct:hiOSD_RGB_S
+venc_para	venc/ive_test2.c	/^}venc_para;$/;"	t	typeref:struct:VENCPARA	file:
+venc_para	venc/ive_test2_venc.c	/^}venc_para;$/;"	t	typeref:struct:VENCPARA	file:
+venc_para	venc/test2.c	/^}venc_para;$/;"	t	typeref:struct:VENCPARA	file:
+videodir	recorder/final.c	/^const char *videodir = "\/mnt\/sd\/video\/";$/;"	v
+videodir	recorder/snap.c	/^const char *videodir = "\/mnt\/sd\/video\/";$/;"	v
+videodir	venc/snap.c	/^const char *videodir = "\/mnt\/sd\/video\/";$/;"	v
+w	mycommon/MyCore.h	/^	int w;$/;"	m	struct:__anon6
+w	mycommon/MyCore.h	/^	int w[2];\/\/,h[2];$/;"	m	struct:__anon4
+w	test_comm/MyCore.h	/^	int w;$/;"	m	struct:__anon14
+w	test_comm/MyCore.h	/^	int w[2];\/\/,h[2];$/;"	m	struct:__anon12
+width	common/loadbmp.h	/^    HI_U32    width;        \/* out *\/$/;"	m	struct:tag_OSD_Logo
+width	mycommon/MyCore.h	/^	int width;$/;"	m	struct:__anon3
+width	test_comm/MyCore.h	/^	int width;$/;"	m	struct:__anon11
+widthjs	mycommon/MyCore.h	/^	int widthjs;$/;"	m	struct:__anon3
+widthjs	test_comm/MyCore.h	/^	int widthjs;$/;"	m	struct:__anon11
+x	mycommon/MyCore.h	/^	int x;$/;"	m	struct:__anon2
+x	mycommon/MyCore.h	/^	int x;$/;"	m	struct:__anon6
+x	mycommon/MyCore.h	/^	int x[2];\/\/,y[2];$/;"	m	struct:__anon4
+x	test_comm/MyCore.h	/^	int x;$/;"	m	struct:__anon10
+x	test_comm/MyCore.h	/^	int x;$/;"	m	struct:__anon14
+x	test_comm/MyCore.h	/^	int x[2];\/\/,y[2];$/;"	m	struct:__anon12
+x1	mycommon/MyCore.h	/^	int x1;$/;"	m	struct:__anon5
+x1	mycommon/MyCore.h	/^	int x1[2];$/;"	m	struct:__anon8
+x1	test_comm/MyCore.h	/^	int x1;$/;"	m	struct:__anon13
+x1	test_comm/MyCore.h	/^	int x1[2];$/;"	m	struct:__anon16
+x2	mycommon/MyCore.h	/^	int x2;$/;"	m	struct:__anon5
+x2	mycommon/MyCore.h	/^	int x2[2];$/;"	m	struct:__anon8
+x2	test_comm/MyCore.h	/^	int x2;$/;"	m	struct:__anon13
+x2	test_comm/MyCore.h	/^	int x2[2];$/;"	m	struct:__anon16
+y	mycommon/MyCore.h	/^	int y;$/;"	m	struct:__anon2
+y	test_comm/MyCore.h	/^	int y;$/;"	m	struct:__anon10

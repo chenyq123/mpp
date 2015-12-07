@@ -1,0 +1,77 @@
+CFLAGS  = -Wall -fPIC -D$(HI_FPGA) -D$(HI_GPIO_I2C)
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/aptina_ar0130/Makefile
+CFLAGS  = -Wall -fPIC -D$(HI_FPGA) -D$(HI_GPIO_I2C)
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/ov_9712/Makefile
+CFLAGS  = -Wall
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/sony_icx692/Makefile
+CFLAGS  = -Wall
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/sony_imx104/Makefile
+CFLAGS  = -Wall
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/pana34031/Makefile
+CFLAGS  = -Wall
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/pana34041/Makefile
+CFLAGS  = -Wall
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/sony_imx122/Makefile
+CFLAGS  = -Wall -fPIC -D$(HI_FPGA) -D$(HI_GPIO_I2C)
+CFLAGS  += -O2
+CFLAGS += -g
+COMPILE = $(CC) $(CFLAGS) $(DFLAGS) -lm
+./component/isp/sensor/aptina_9m034/Makefile
+EXTRA_CFLAGS += -D$(HI_FPGA)
+./extdrv/gpio-i2c-ex/Makefile
+EXTRA_CFLAGS += -D$(HI_FPGA)
+./extdrv/ssp-sony/Makefile
+EXTRA_CFLAGS += -D$(HI_FPGA) 
+./extdrv/gpio-i2c/Makefile
+EXTRA_CFLAGS += -D$(HI_FPGA)
+#EXTRA_CFLAGS += -DHI_I2C
+EXTRA_CFLAGS += -DHI_GPIO_I2C
+EXTRA_CFLAGS+=-I$(PWD)/../gpio-i2c
+EXTRA_CFLAGS+=-I$(PWD)/../hi_i2c
+./extdrv/tw2865/Makefile
+CFLAGS += -Wall -g -lpthread $(INC_FLAGS)
+CFLAGS += -DHI_3518	
+CFLAGS += -DSNS_AR0130
+CFLAGS += -DSNS_9M034
+CFLAGS += -DSNS_IMX104
+CFLAGS += -DSNS_MN34031
+CFLAGS += -DSNS_OV9712
+	$(CC) $(CFLAGS)  -o $@ $^ $(LIBS) $(AUDIO_LIBA) 
+./tools/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/test/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/region/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/audio/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(SENSOR_LIBS) $(MPI_LIBS)  $(AUDIO_LIBA)
+./sample/hifb/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/venc/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(LIBS) 
+./sample/tde/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/vio/Makefile
+	$(CC) $(CFLAGS) -lpthread -lm -o $@ $^ $(MPI_LIBS) $(AUDIO_LIBA) $(SENSOR_LIBS)
+./sample/vda/Makefile

@@ -1,0 +1,1 @@
+cmd_/root/hi3516c/mpp/extdrv/hi_i2c/hi_i2c.ko := arm-hisiv100nptl-linux-ld -EL -r  -T /root/hi3516c/osdrv/kernel/linux-3.0.y/scripts/module-common.lds --build-id  -o /root/hi3516c/mpp/extdrv/hi_i2c/hi_i2c.ko /root/hi3516c/mpp/extdrv/hi_i2c/hi_i2c.o /root/hi3516c/mpp/extdrv/hi_i2c/hi_i2c.mod.o

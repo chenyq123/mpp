@@ -1,0 +1,1 @@
+cmd_/root/hi3516c/mpp/extdrv/ssp-pana/ssp_pana.ko := arm-hisiv100nptl-linux-ld -EL -r  -T /root/hi3516c/osdrv/kernel/linux-3.0.y/scripts/module-common.lds --build-id  -o /root/hi3516c/mpp/extdrv/ssp-pana/ssp_pana.ko /root/hi3516c/mpp/extdrv/ssp-pana/ssp_pana.o /root/hi3516c/mpp/extdrv/ssp-pana/ssp_pana.mod.o

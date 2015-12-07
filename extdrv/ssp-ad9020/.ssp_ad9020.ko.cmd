@@ -1,0 +1,1 @@
+cmd_/root/hi3516c/mpp/extdrv/ssp-ad9020/ssp_ad9020.ko := arm-hisiv100nptl-linux-ld -EL -r  -T /root/hi3516c/osdrv/kernel/linux-3.0.y/scripts/module-common.lds --build-id  -o /root/hi3516c/mpp/extdrv/ssp-ad9020/ssp_ad9020.ko /root/hi3516c/mpp/extdrv/ssp-ad9020/ssp_ad9020.o /root/hi3516c/mpp/extdrv/ssp-ad9020/ssp_ad9020.mod.o
