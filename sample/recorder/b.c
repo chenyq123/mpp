@@ -15,7 +15,7 @@
 #include "sample_comm.h"
 #include "math.h"
 #include <termios.h>
-//#include <cv.h>
+#include <cv.h>
 
 extern HI_S32 SnapCnt;
 
